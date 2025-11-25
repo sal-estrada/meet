@@ -9,7 +9,7 @@ The app provides a seamless and responsive user experience, making it simple to 
 ### Show/Hide Event Details
 As a user, I should be able to show or hide event details, so that I can view only the information I need and keep my event list uncluttered.
     
-    ```gherkin
+````gherkin
     Scenario: An event element is collapsed by default
       Given I open the app
       When I view the list of events
