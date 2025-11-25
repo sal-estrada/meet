@@ -1,8 +1,14 @@
-# Meet
+# Meet App
+
+The Event App is a **serverless Progressive Web Application (PWA)** built with **React** using a **Test-Driven Development (TDD)** approach. The app integrates with the **Google Calendar API** to fetch upcoming events, allowing users to view and interact with events in their geographical area.
+
+The app provides a seamless and responsive user experience, making it simple to stay informed about local events anytime, anywhere.
+
 
 ## User Stories/ Features
 ### Show/Hide Event Details
- * As a user, I should be able to show or hide event details, so that I can view only the information I need and keep my event list uncluttered.
+As a user, I should be able to show or hide event details, so that I can view only the information I need and keep my event list uncluttered.
+    
     ```gherkin
     Scenario: An event element is collapsed by default
       Given I open the app
@@ -21,7 +27,8 @@
     ````
 
 ### Specify Number of Events
- *  As a user, I should be able to specify the number of events displayed, so that I can control how much information I see at once and focus on the most relevant events.
+As a user, I should be able to specify the number of events displayed, so that I can control how much information I see at once and focus on the most relevant events.
+
 ```gherkin
 Scenario: Show 32 events by default when user hasn’t specified a number
   Given I open the app
@@ -35,7 +42,7 @@ Scenario: User can change the number of events displayed
 ````
   
 ### Use the App When Offline
- *  As a user, I should be able to access the app when offline, so that I can view events even without an internet connection.
+As a user, I should be able to access the app when offline, so that I can view events even without an internet connection.
 ````gherkin
 Scenario: Show cached data when there’s no internet connection
   Given I have previously opened the app and data is cached
@@ -49,7 +56,7 @@ Scenario: Show error when user changes search settings offline
 ````
 
 ### Add an App Shortcut to the Home Screen
- *  As a user, I should be able to add a shortcut to the app on my home screen, so that I can quickly open the app without navigating through a browser.
+As a user, I should be able to add a shortcut to the app on my home screen, so that I can quickly open the app without navigating through a browser.
 ````gherkin
 Scenario: User can install the app as a home screen shortcut
   Given I am using a compatible device and browser
@@ -57,7 +64,7 @@ Scenario: User can install the app as a home screen shortcut
   Then a shortcut for the app should appear on my device's home screen
 ````
 ### Display Charts Visualizing Event Details
- *  As a user, I should be able to see charts that visualize event details, so that I can understand trends and patterns in events more easily.
+As a user, I should be able to see charts that visualize event details, so that I can understand trends and patterns in events more easily.
 ````gherkin
 Scenario: Show a chart with the number of upcoming events in each city
   Given I am viewing the events dashboard
