@@ -71,4 +71,26 @@ Scenario: Show a chart with the number of upcoming events in each city
   When the data for upcoming events is loaded
   Then a chart should display the number of upcoming events per city
 ````
+## Authentication
 
+This application uses OAuth 2.0 for secure user authentication and authorization. We integrate with the following providers:
+
+*   **Google:** Users can sign in and grant access to their Google account data.
+
+**Authorization Flow:**
+
+1.  Users initiate the login process via Google.
+2.  They are redirected to the respective provider's authorization page to grant consent.
+3.  Upon successful authorization, they are redirected back to the application.
+
+**Required Scopes:**
+
+*   **Google:** `profile`, `email` (for basic user information)
+
+**Developer Setup (if applicable):**
+
+To set up OAuth 2.0 credentials locally:
+
+1.  Create an OAuth 2.0 client in the Google Developer Console.
+2.  Obtain your `client_id` and `client_secret`.
+3.  Configure the redirect URIs in both the provider settings and your local environment variables.
