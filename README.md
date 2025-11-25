@@ -24,7 +24,7 @@ As a user, I should be able to show or hide event details, so that I can view on
       Given an event is expanded
       When I click on the event
       Then the event details should collapse and become hidden
-    ````
+````
 
 ### Specify Number of Events
 As a user, I should be able to specify the number of events displayed, so that I can control how much information I see at once and focus on the most relevant events.
