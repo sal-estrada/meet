@@ -40,7 +40,7 @@ export const getEvents = async () => {
         window.location.pathname;
       window.history.pushState("", "", newurl);
     } else {
-      newurl = window.location.protocol + "//" window.location.host;
+      newurl = window.location.protocol + "//" + window.location.host;
       window.history.pushState("", "", newurl);
     }
   };
