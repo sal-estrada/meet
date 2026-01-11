@@ -24,7 +24,7 @@ const checkToken = async (accessToken) => {
 };
 
 export const getEvents = async () => {
-  if (window.location.href.startsWith('http:/localhost')) {
+  if (window.location.href.startsWith('http://localhost')) {
     return mockData;
   }
 
@@ -47,7 +47,7 @@ export const getEvents = async () => {
 
   if (token) {
     removeQuery();
-    const url =  "https://vvb2v773edboswkv55jaymszwq0kaesh.lambda-url.us-east-2.on.aws" = "/" + token;
+    const url =  "https://vvb2v773edboswkv55jaymszwq0kaesh.lambda-url.us-east-2.on.aws" + "/" + token;
     const response = await fetch(url);
     const result = await response.json();
     if (result) {
@@ -63,7 +63,7 @@ const getToken = async (code) => {
   );
 
   const { accessToken } = await response.json();
-  access_token && localStorage.setItem("acesss_token", access_token);
+  access_token && localStorage.setItem("accesss_token", access_token);
 
   return access_token
 };
@@ -79,7 +79,7 @@ export const getAccessToken = async () => {
     const code = await searchParams.get("code");
     if (!code) {
       const response = await fetch(
-        "https://6yedy4il3wqmftedncn7e7e5ca0didhr.lambda-url.us-east-2.on.aws/ "
+        "https://6yedy4il3wqmftedncn7e7e5ca0didhr.lambda-url.us-east-2.on.aws/"
       );
       const result = await response.json();
       const { authUrl } = result; 
