@@ -1,0 +1,1264 @@
+20fb449abaacff51b29dacc467d8fbf8
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+var mockData = [{
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200519T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MTlUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-05-19T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-05-19T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-05-19T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200520T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjBUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-05-20T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-05-20T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-05-20T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200521T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjFUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-05-21T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-05-21T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-05-21T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200522T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjJUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-05-22T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-05-22T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-05-22T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200523T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjNUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-05-23T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-05-23T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-05-23T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200525T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjVUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-05-25T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-05-25T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-05-25T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200526T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjZUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-05-26T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-05-26T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-05-26T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200527T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjdUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-05-27T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-05-27T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-05-27T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200528T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjhUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-05-28T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-05-28T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-05-28T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200529T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjlUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-05-29T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-05-29T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-05-29T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200530T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MzBUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-05-30T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-05-30T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-05-30T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200601T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDFUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-01T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-01T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-06-01T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200602T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDJUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-02T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-02T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-06-02T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200603T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDNUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-03T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-03T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-06-03T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200604T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDRUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-04T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-04T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-06-04T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200605T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDVUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-05T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-05T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-06-05T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200606T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDZUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-06T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-06T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-06-06T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200608T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDhUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-08T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-08T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-06-08T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200609T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDlUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-09T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-09T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-06-09T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200610T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTBUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-10T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-10T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-06-10T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200611T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MTFUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-11T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-11T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-06-11T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200612T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTJUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-12T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-12T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-06-12T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200613T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MTNUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-13T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-13T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-06-13T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200615T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTVUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-15T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-15T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-06-15T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200616T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MTZUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-16T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-16T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-06-16T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200617T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTdUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-17T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-17T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-06-17T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200618T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MThUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-18T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-18T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-06-18T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200619T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTlUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-19T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-19T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-06-19T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200620T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MjBUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-20T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-20T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-06-20T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200622T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MjJUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-22T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-22T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-06-22T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200623T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MjNUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-23T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-23T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-06-23T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181159875584000\"",
+  "id": "3qtd6uscq4tsi6gc7nmmtpqlct_20200624T120000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MjRUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:14:30.000Z",
+  "updated": "2020-05-27T11:45:37.792Z",
+  "summary": "React is Fun",
+  "description": "Love HTML, CSS, and JS? Want to become a cool front-end developer? \n\nReact is one of the most popular front-end frameworks. There is a huge number of job openings for React developers in most cities. \n\nJoin us in our free React training sessions and give your career a new direction. ",
+  "location": "Berlin, Germany",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-24T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-24T15:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "3qtd6uscq4tsi6gc7nmmtpqlct",
+  "originalStartTime": {
+    "dateTime": "2020-06-24T14:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "3qtd6uscq4tsi6gc7nmmtpqlct@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}, {
+  "kind": "calendar#event",
+  "etag": "\"3181161784712000\"",
+  "id": "4eahs9ghkhrvkld72hogu9ph3e_20200625T140000Z",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MjVUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+  "created": "2020-05-19T19:17:46.000Z",
+  "updated": "2020-05-27T12:01:32.356Z",
+  "summary": "Learn JavaScript",
+  "description": "Have you wondered how you can ask Google to show you the list of the top ten must-see places in London? And how Google presents you the list? How can you submit the details of an application? Well, JavaScript is doing these. :) \n\nJavascript offers interactivity to a dull, static website. Come, learn JavaScript with us and make those beautiful websites.",
+  "location": "London, UK",
+  "creator": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "organizer": {
+    "email": "fullstackwebdev@careerfoundry.com",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2020-06-25T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "end": {
+    "dateTime": "2020-06-25T17:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "recurringEventId": "4eahs9ghkhrvkld72hogu9ph3e",
+  "originalStartTime": {
+    "dateTime": "2020-06-25T16:00:00+02:00",
+    "timeZone": "Europe/Berlin"
+  },
+  "iCalUID": "4eahs9ghkhrvkld72hogu9ph3e@google.com",
+  "sequence": 0,
+  "reminders": {
+    "useDefault": true
+  },
+  "eventType": "default"
+}];
+var _default = exports["default"] = mockData;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJtb2NrRGF0YSIsIl9kZWZhdWx0IiwiZXhwb3J0cyJdLCJzb3VyY2VzIjpbIm1vY2stZGF0YS5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBtb2NrRGF0YSA9IFsgXG4gICB7XG4gICBcImtpbmRcIjogXCJjYWxlbmRhciNldmVudFwiLFxuICAgXCJldGFnXCI6IFwiXFxcIjMxODExNjE3ODQ3MTIwMDBcXFwiXCIsXG4gICBcImlkXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MTlUMTQwMDAwWlwiLFxuICAgXCJzdGF0dXNcIjogXCJjb25maXJtZWRcIixcbiAgIFwiaHRtbExpbmtcIjogXCJodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2VpZD1OR1ZoYUhNNVoyaHJhSEoyYTJ4a056Sm9iMmQxT1hCb00yVmZNakF5TURBMU1UbFVNVFF3TURBd1dpQm1kV3hzYzNSaFkydDNaV0prWlhaQVkyRnlaV1Z5Wm05MWJtUnllUzVqYjIwXCIsXG4gICBcImNyZWF0ZWRcIjogXCIyMDIwLTA1LTE5VDE5OjE3OjQ2LjAwMFpcIixcbiAgIFwidXBkYXRlZFwiOiBcIjIwMjAtMDUtMjdUMTI6MDE6MzIuMzU2WlwiLFxuICAgXCJzdW1tYXJ5XCI6IFwiTGVhcm4gSmF2YVNjcmlwdFwiLFxuICAgXCJkZXNjcmlwdGlvblwiOiBcIkhhdmUgeW91IHdvbmRlcmVkIGhvdyB5b3UgY2FuIGFzayBHb29nbGUgdG8gc2hvdyB5b3UgdGhlIGxpc3Qgb2YgdGhlIHRvcCB0ZW4gbXVzdC1zZWUgcGxhY2VzIGluIExvbmRvbj8gQW5kIGhvdyBHb29nbGUgcHJlc2VudHMgeW91IHRoZSBsaXN0PyBIb3cgY2FuIHlvdSBzdWJtaXQgdGhlIGRldGFpbHMgb2YgYW4gYXBwbGljYXRpb24/IFdlbGwsIEphdmFTY3JpcHQgaXMgZG9pbmcgdGhlc2UuIDopIFxcblxcbkphdmFzY3JpcHQgb2ZmZXJzIGludGVyYWN0aXZpdHkgdG8gYSBkdWxsLCBzdGF0aWMgd2Vic2l0ZS4gQ29tZSwgbGVhcm4gSmF2YVNjcmlwdCB3aXRoIHVzIGFuZCBtYWtlIHRob3NlIGJlYXV0aWZ1bCB3ZWJzaXRlcy5cIixcbiAgIFwibG9jYXRpb25cIjogXCJMb25kb24sIFVLXCIsXG4gICBcImNyZWF0b3JcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwib3JnYW5pemVyXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcInN0YXJ0XCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNS0xOVQxNjowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImVuZFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDUtMTlUMTc6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJyZWN1cnJpbmdFdmVudElkXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VcIixcbiAgIFwib3JpZ2luYWxTdGFydFRpbWVcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA1LTE5VDE2OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiaUNhbFVJRFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlQGdvb2dsZS5jb21cIixcbiAgIFwic2VxdWVuY2VcIjogMCxcbiAgIFwicmVtaW5kZXJzXCI6IHtcbiAgICBcInVzZURlZmF1bHRcIjogdHJ1ZVxuICAgfSxcbiAgIFwiZXZlbnRUeXBlXCI6IFwiZGVmYXVsdFwiXG4gIH0sXG4gIHtcbiAgIFwia2luZFwiOiBcImNhbGVuZGFyI2V2ZW50XCIsXG4gICBcImV0YWdcIjogXCJcXFwiMzE4MTE1OTg3NTU4NDAwMFxcXCJcIixcbiAgIFwiaWRcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdF8yMDIwMDUyMFQxMjAwMDBaXCIsXG4gICBcInN0YXR1c1wiOiBcImNvbmZpcm1lZFwiLFxuICAgXCJodG1sTGlua1wiOiBcImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/ZWlkPU0zRjBaRFoxYzJOeE5IUnphVFpuWXpkdWJXMTBjSEZzWTNSZk1qQXlNREExTWpCVU1USXdNREF3V2lCbWRXeHNjM1JoWTJ0M1pXSmtaWFpBWTJGeVpXVnlabTkxYm1SeWVTNWpiMjBcIixcbiAgIFwiY3JlYXRlZFwiOiBcIjIwMjAtMDUtMTlUMTk6MTQ6MzAuMDAwWlwiLFxuICAgXCJ1cGRhdGVkXCI6IFwiMjAyMC0wNS0yN1QxMTo0NTozNy43OTJaXCIsXG4gICBcInN1bW1hcnlcIjogXCJSZWFjdCBpcyBGdW5cIixcbiAgIFwiZGVzY3JpcHRpb25cIjogXCJMb3ZlIEhUTUwsIENTUywgYW5kIEpTPyBXYW50IHRvIGJlY29tZSBhIGNvb2wgZnJvbnQtZW5kIGRldmVsb3Blcj8gXFxuXFxuUmVhY3QgaXMgb25lIG9mIHRoZSBtb3N0IHBvcHVsYXIgZnJvbnQtZW5kIGZyYW1ld29ya3MuIFRoZXJlIGlzIGEgaHVnZSBudW1iZXIgb2Ygam9iIG9wZW5pbmdzIGZvciBSZWFjdCBkZXZlbG9wZXJzIGluIG1vc3QgY2l0aWVzLiBcXG5cXG5Kb2luIHVzIGluIG91ciBmcmVlIFJlYWN0IHRyYWluaW5nIHNlc3Npb25zIGFuZCBnaXZlIHlvdXIgY2FyZWVyIGEgbmV3IGRpcmVjdGlvbi4gXCIsXG4gICBcImxvY2F0aW9uXCI6IFwiQmVybGluLCBHZXJtYW55XCIsXG4gICBcImNyZWF0b3JcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwib3JnYW5pemVyXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcInN0YXJ0XCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNS0yMFQxNDowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImVuZFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDUtMjBUMTU6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJyZWN1cnJpbmdFdmVudElkXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RcIixcbiAgIFwib3JpZ2luYWxTdGFydFRpbWVcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA1LTIwVDE0OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiaUNhbFVJRFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0QGdvb2dsZS5jb21cIixcbiAgIFwic2VxdWVuY2VcIjogMCxcbiAgIFwicmVtaW5kZXJzXCI6IHtcbiAgICBcInVzZURlZmF1bHRcIjogdHJ1ZVxuICAgfSxcbiAgIFwiZXZlbnRUeXBlXCI6IFwiZGVmYXVsdFwiXG4gIH0sXG4gIHtcbiAgIFwia2luZFwiOiBcImNhbGVuZGFyI2V2ZW50XCIsXG4gICBcImV0YWdcIjogXCJcXFwiMzE4MTE2MTc4NDcxMjAwMFxcXCJcIixcbiAgIFwiaWRcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZV8yMDIwMDUyMVQxNDAwMDBaXCIsXG4gICBcInN0YXR1c1wiOiBcImNvbmZpcm1lZFwiLFxuICAgXCJodG1sTGlua1wiOiBcImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/ZWlkPU5HVmhhSE01WjJocmFISjJhMnhrTnpKb2IyZDFPWEJvTTJWZk1qQXlNREExTWpGVU1UUXdNREF3V2lCbWRXeHNjM1JoWTJ0M1pXSmtaWFpBWTJGeVpXVnlabTkxYm1SeWVTNWpiMjBcIixcbiAgIFwiY3JlYXRlZFwiOiBcIjIwMjAtMDUtMTlUMTk6MTc6NDYuMDAwWlwiLFxuICAgXCJ1cGRhdGVkXCI6IFwiMjAyMC0wNS0yN1QxMjowMTozMi4zNTZaXCIsXG4gICBcInN1bW1hcnlcIjogXCJMZWFybiBKYXZhU2NyaXB0XCIsXG4gICBcImRlc2NyaXB0aW9uXCI6IFwiSGF2ZSB5b3Ugd29uZGVyZWQgaG93IHlvdSBjYW4gYXNrIEdvb2dsZSB0byBzaG93IHlvdSB0aGUgbGlzdCBvZiB0aGUgdG9wIHRlbiBtdXN0LXNlZSBwbGFjZXMgaW4gTG9uZG9uPyBBbmQgaG93IEdvb2dsZSBwcmVzZW50cyB5b3UgdGhlIGxpc3Q/IEhvdyBjYW4geW91IHN1Ym1pdCB0aGUgZGV0YWlscyBvZiBhbiBhcHBsaWNhdGlvbj8gV2VsbCwgSmF2YVNjcmlwdCBpcyBkb2luZyB0aGVzZS4gOikgXFxuXFxuSmF2YXNjcmlwdCBvZmZlcnMgaW50ZXJhY3Rpdml0eSB0byBhIGR1bGwsIHN0YXRpYyB3ZWJzaXRlLiBDb21lLCBsZWFybiBKYXZhU2NyaXB0IHdpdGggdXMgYW5kIG1ha2UgdGhvc2UgYmVhdXRpZnVsIHdlYnNpdGVzLlwiLFxuICAgXCJsb2NhdGlvblwiOiBcIkxvbmRvbiwgVUtcIixcbiAgIFwiY3JlYXRvclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJvcmdhbml6ZXJcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwic3RhcnRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA1LTIxVDE2OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiZW5kXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNS0yMVQxNzowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcInJlY3VycmluZ0V2ZW50SWRcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZVwiLFxuICAgXCJvcmlnaW5hbFN0YXJ0VGltZVwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDUtMjFUMTY6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJpQ2FsVUlEXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VAZ29vZ2xlLmNvbVwiLFxuICAgXCJzZXF1ZW5jZVwiOiAwLFxuICAgXCJyZW1pbmRlcnNcIjoge1xuICAgIFwidXNlRGVmYXVsdFwiOiB0cnVlXG4gICB9LFxuICAgXCJldmVudFR5cGVcIjogXCJkZWZhdWx0XCJcbiAgfSxcbiAge1xuICAgXCJraW5kXCI6IFwiY2FsZW5kYXIjZXZlbnRcIixcbiAgIFwiZXRhZ1wiOiBcIlxcXCIzMTgxMTU5ODc1NTg0MDAwXFxcIlwiLFxuICAgXCJpZFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0XzIwMjAwNTIyVDEyMDAwMFpcIixcbiAgIFwic3RhdHVzXCI6IFwiY29uZmlybWVkXCIsXG4gICBcImh0bWxMaW5rXCI6IFwiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci9ldmVudD9laWQ9TTNGMFpEWjFjMk54TkhSemFUWm5ZemR1YlcxMGNIRnNZM1JmTWpBeU1EQTFNakpVTVRJd01EQXdXaUJtZFd4c2MzUmhZMnQzWldKa1pYWkFZMkZ5WldWeVptOTFibVJ5ZVM1amIyMFwiLFxuICAgXCJjcmVhdGVkXCI6IFwiMjAyMC0wNS0xOVQxOToxNDozMC4wMDBaXCIsXG4gICBcInVwZGF0ZWRcIjogXCIyMDIwLTA1LTI3VDExOjQ1OjM3Ljc5MlpcIixcbiAgIFwic3VtbWFyeVwiOiBcIlJlYWN0IGlzIEZ1blwiLFxuICAgXCJkZXNjcmlwdGlvblwiOiBcIkxvdmUgSFRNTCwgQ1NTLCBhbmQgSlM/IFdhbnQgdG8gYmVjb21lIGEgY29vbCBmcm9udC1lbmQgZGV2ZWxvcGVyPyBcXG5cXG5SZWFjdCBpcyBvbmUgb2YgdGhlIG1vc3QgcG9wdWxhciBmcm9udC1lbmQgZnJhbWV3b3Jrcy4gVGhlcmUgaXMgYSBodWdlIG51bWJlciBvZiBqb2Igb3BlbmluZ3MgZm9yIFJlYWN0IGRldmVsb3BlcnMgaW4gbW9zdCBjaXRpZXMuIFxcblxcbkpvaW4gdXMgaW4gb3VyIGZyZWUgUmVhY3QgdHJhaW5pbmcgc2Vzc2lvbnMgYW5kIGdpdmUgeW91ciBjYXJlZXIgYSBuZXcgZGlyZWN0aW9uLiBcIixcbiAgIFwibG9jYXRpb25cIjogXCJCZXJsaW4sIEdlcm1hbnlcIixcbiAgIFwiY3JlYXRvclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJvcmdhbml6ZXJcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwic3RhcnRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA1LTIyVDE0OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiZW5kXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNS0yMlQxNTowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcInJlY3VycmluZ0V2ZW50SWRcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdFwiLFxuICAgXCJvcmlnaW5hbFN0YXJ0VGltZVwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDUtMjJUMTQ6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJpQ2FsVUlEXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RAZ29vZ2xlLmNvbVwiLFxuICAgXCJzZXF1ZW5jZVwiOiAwLFxuICAgXCJyZW1pbmRlcnNcIjoge1xuICAgIFwidXNlRGVmYXVsdFwiOiB0cnVlXG4gICB9LFxuICAgXCJldmVudFR5cGVcIjogXCJkZWZhdWx0XCJcbiAgfSxcbiAge1xuICAgXCJraW5kXCI6IFwiY2FsZW5kYXIjZXZlbnRcIixcbiAgIFwiZXRhZ1wiOiBcIlxcXCIzMTgxMTYxNzg0NzEyMDAwXFxcIlwiLFxuICAgXCJpZFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlXzIwMjAwNTIzVDE0MDAwMFpcIixcbiAgIFwic3RhdHVzXCI6IFwiY29uZmlybWVkXCIsXG4gICBcImh0bWxMaW5rXCI6IFwiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci9ldmVudD9laWQ9TkdWaGFITTVaMmhyYUhKMmEyeGtOekpvYjJkMU9YQm9NMlZmTWpBeU1EQTFNak5VTVRRd01EQXdXaUJtZFd4c2MzUmhZMnQzWldKa1pYWkFZMkZ5WldWeVptOTFibVJ5ZVM1amIyMFwiLFxuICAgXCJjcmVhdGVkXCI6IFwiMjAyMC0wNS0xOVQxOToxNzo0Ni4wMDBaXCIsXG4gICBcInVwZGF0ZWRcIjogXCIyMDIwLTA1LTI3VDEyOjAxOjMyLjM1NlpcIixcbiAgIFwic3VtbWFyeVwiOiBcIkxlYXJuIEphdmFTY3JpcHRcIixcbiAgIFwiZGVzY3JpcHRpb25cIjogXCJIYXZlIHlvdSB3b25kZXJlZCBob3cgeW91IGNhbiBhc2sgR29vZ2xlIHRvIHNob3cgeW91IHRoZSBsaXN0IG9mIHRoZSB0b3AgdGVuIG11c3Qtc2VlIHBsYWNlcyBpbiBMb25kb24/IEFuZCBob3cgR29vZ2xlIHByZXNlbnRzIHlvdSB0aGUgbGlzdD8gSG93IGNhbiB5b3Ugc3VibWl0IHRoZSBkZXRhaWxzIG9mIGFuIGFwcGxpY2F0aW9uPyBXZWxsLCBKYXZhU2NyaXB0IGlzIGRvaW5nIHRoZXNlLiA6KSBcXG5cXG5KYXZhc2NyaXB0IG9mZmVycyBpbnRlcmFjdGl2aXR5IHRvIGEgZHVsbCwgc3RhdGljIHdlYnNpdGUuIENvbWUsIGxlYXJuIEphdmFTY3JpcHQgd2l0aCB1cyBhbmQgbWFrZSB0aG9zZSBiZWF1dGlmdWwgd2Vic2l0ZXMuXCIsXG4gICBcImxvY2F0aW9uXCI6IFwiTG9uZG9uLCBVS1wiLFxuICAgXCJjcmVhdG9yXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcIm9yZ2FuaXplclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJzdGFydFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDUtMjNUMTY6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJlbmRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA1LTIzVDE3OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwicmVjdXJyaW5nRXZlbnRJZFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlXCIsXG4gICBcIm9yaWdpbmFsU3RhcnRUaW1lXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNS0yM1QxNjowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImlDYWxVSURcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZUBnb29nbGUuY29tXCIsXG4gICBcInNlcXVlbmNlXCI6IDAsXG4gICBcInJlbWluZGVyc1wiOiB7XG4gICAgXCJ1c2VEZWZhdWx0XCI6IHRydWVcbiAgIH0sXG4gICBcImV2ZW50VHlwZVwiOiBcImRlZmF1bHRcIlxuICB9LFxuICB7XG4gICBcImtpbmRcIjogXCJjYWxlbmRhciNldmVudFwiLFxuICAgXCJldGFnXCI6IFwiXFxcIjMxODExNTk4NzU1ODQwMDBcXFwiXCIsXG4gICBcImlkXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjVUMTIwMDAwWlwiLFxuICAgXCJzdGF0dXNcIjogXCJjb25maXJtZWRcIixcbiAgIFwiaHRtbExpbmtcIjogXCJodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2VpZD1NM0YwWkRaMWMyTnhOSFJ6YVRabll6ZHViVzEwY0hGc1kzUmZNakF5TURBMU1qVlVNVEl3TURBd1dpQm1kV3hzYzNSaFkydDNaV0prWlhaQVkyRnlaV1Z5Wm05MWJtUnllUzVqYjIwXCIsXG4gICBcImNyZWF0ZWRcIjogXCIyMDIwLTA1LTE5VDE5OjE0OjMwLjAwMFpcIixcbiAgIFwidXBkYXRlZFwiOiBcIjIwMjAtMDUtMjdUMTE6NDU6MzcuNzkyWlwiLFxuICAgXCJzdW1tYXJ5XCI6IFwiUmVhY3QgaXMgRnVuXCIsXG4gICBcImRlc2NyaXB0aW9uXCI6IFwiTG92ZSBIVE1MLCBDU1MsIGFuZCBKUz8gV2FudCB0byBiZWNvbWUgYSBjb29sIGZyb250LWVuZCBkZXZlbG9wZXI/IFxcblxcblJlYWN0IGlzIG9uZSBvZiB0aGUgbW9zdCBwb3B1bGFyIGZyb250LWVuZCBmcmFtZXdvcmtzLiBUaGVyZSBpcyBhIGh1Z2UgbnVtYmVyIG9mIGpvYiBvcGVuaW5ncyBmb3IgUmVhY3QgZGV2ZWxvcGVycyBpbiBtb3N0IGNpdGllcy4gXFxuXFxuSm9pbiB1cyBpbiBvdXIgZnJlZSBSZWFjdCB0cmFpbmluZyBzZXNzaW9ucyBhbmQgZ2l2ZSB5b3VyIGNhcmVlciBhIG5ldyBkaXJlY3Rpb24uIFwiLFxuICAgXCJsb2NhdGlvblwiOiBcIkJlcmxpbiwgR2VybWFueVwiLFxuICAgXCJjcmVhdG9yXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcIm9yZ2FuaXplclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJzdGFydFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDUtMjVUMTQ6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJlbmRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA1LTI1VDE1OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwicmVjdXJyaW5nRXZlbnRJZFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0XCIsXG4gICBcIm9yaWdpbmFsU3RhcnRUaW1lXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNS0yNVQxNDowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImlDYWxVSURcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdEBnb29nbGUuY29tXCIsXG4gICBcInNlcXVlbmNlXCI6IDAsXG4gICBcInJlbWluZGVyc1wiOiB7XG4gICAgXCJ1c2VEZWZhdWx0XCI6IHRydWVcbiAgIH0sXG4gICBcImV2ZW50VHlwZVwiOiBcImRlZmF1bHRcIlxuICB9LFxuICB7XG4gICBcImtpbmRcIjogXCJjYWxlbmRhciNldmVudFwiLFxuICAgXCJldGFnXCI6IFwiXFxcIjMxODExNjE3ODQ3MTIwMDBcXFwiXCIsXG4gICBcImlkXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjZUMTQwMDAwWlwiLFxuICAgXCJzdGF0dXNcIjogXCJjb25maXJtZWRcIixcbiAgIFwiaHRtbExpbmtcIjogXCJodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2VpZD1OR1ZoYUhNNVoyaHJhSEoyYTJ4a056Sm9iMmQxT1hCb00yVmZNakF5TURBMU1qWlVNVFF3TURBd1dpQm1kV3hzYzNSaFkydDNaV0prWlhaQVkyRnlaV1Z5Wm05MWJtUnllUzVqYjIwXCIsXG4gICBcImNyZWF0ZWRcIjogXCIyMDIwLTA1LTE5VDE5OjE3OjQ2LjAwMFpcIixcbiAgIFwidXBkYXRlZFwiOiBcIjIwMjAtMDUtMjdUMTI6MDE6MzIuMzU2WlwiLFxuICAgXCJzdW1tYXJ5XCI6IFwiTGVhcm4gSmF2YVNjcmlwdFwiLFxuICAgXCJkZXNjcmlwdGlvblwiOiBcIkhhdmUgeW91IHdvbmRlcmVkIGhvdyB5b3UgY2FuIGFzayBHb29nbGUgdG8gc2hvdyB5b3UgdGhlIGxpc3Qgb2YgdGhlIHRvcCB0ZW4gbXVzdC1zZWUgcGxhY2VzIGluIExvbmRvbj8gQW5kIGhvdyBHb29nbGUgcHJlc2VudHMgeW91IHRoZSBsaXN0PyBIb3cgY2FuIHlvdSBzdWJtaXQgdGhlIGRldGFpbHMgb2YgYW4gYXBwbGljYXRpb24/IFdlbGwsIEphdmFTY3JpcHQgaXMgZG9pbmcgdGhlc2UuIDopIFxcblxcbkphdmFzY3JpcHQgb2ZmZXJzIGludGVyYWN0aXZpdHkgdG8gYSBkdWxsLCBzdGF0aWMgd2Vic2l0ZS4gQ29tZSwgbGVhcm4gSmF2YVNjcmlwdCB3aXRoIHVzIGFuZCBtYWtlIHRob3NlIGJlYXV0aWZ1bCB3ZWJzaXRlcy5cIixcbiAgIFwibG9jYXRpb25cIjogXCJMb25kb24sIFVLXCIsXG4gICBcImNyZWF0b3JcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwib3JnYW5pemVyXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcInN0YXJ0XCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNS0yNlQxNjowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImVuZFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDUtMjZUMTc6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJyZWN1cnJpbmdFdmVudElkXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VcIixcbiAgIFwib3JpZ2luYWxTdGFydFRpbWVcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA1LTI2VDE2OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiaUNhbFVJRFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlQGdvb2dsZS5jb21cIixcbiAgIFwic2VxdWVuY2VcIjogMCxcbiAgIFwicmVtaW5kZXJzXCI6IHtcbiAgICBcInVzZURlZmF1bHRcIjogdHJ1ZVxuICAgfSxcbiAgIFwiZXZlbnRUeXBlXCI6IFwiZGVmYXVsdFwiXG4gIH0sXG4gIHtcbiAgIFwia2luZFwiOiBcImNhbGVuZGFyI2V2ZW50XCIsXG4gICBcImV0YWdcIjogXCJcXFwiMzE4MTE1OTg3NTU4NDAwMFxcXCJcIixcbiAgIFwiaWRcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdF8yMDIwMDUyN1QxMjAwMDBaXCIsXG4gICBcInN0YXR1c1wiOiBcImNvbmZpcm1lZFwiLFxuICAgXCJodG1sTGlua1wiOiBcImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/ZWlkPU0zRjBaRFoxYzJOeE5IUnphVFpuWXpkdWJXMTBjSEZzWTNSZk1qQXlNREExTWpkVU1USXdNREF3V2lCbWRXeHNjM1JoWTJ0M1pXSmtaWFpBWTJGeVpXVnlabTkxYm1SeWVTNWpiMjBcIixcbiAgIFwiY3JlYXRlZFwiOiBcIjIwMjAtMDUtMTlUMTk6MTQ6MzAuMDAwWlwiLFxuICAgXCJ1cGRhdGVkXCI6IFwiMjAyMC0wNS0yN1QxMTo0NTozNy43OTJaXCIsXG4gICBcInN1bW1hcnlcIjogXCJSZWFjdCBpcyBGdW5cIixcbiAgIFwiZGVzY3JpcHRpb25cIjogXCJMb3ZlIEhUTUwsIENTUywgYW5kIEpTPyBXYW50IHRvIGJlY29tZSBhIGNvb2wgZnJvbnQtZW5kIGRldmVsb3Blcj8gXFxuXFxuUmVhY3QgaXMgb25lIG9mIHRoZSBtb3N0IHBvcHVsYXIgZnJvbnQtZW5kIGZyYW1ld29ya3MuIFRoZXJlIGlzIGEgaHVnZSBudW1iZXIgb2Ygam9iIG9wZW5pbmdzIGZvciBSZWFjdCBkZXZlbG9wZXJzIGluIG1vc3QgY2l0aWVzLiBcXG5cXG5Kb2luIHVzIGluIG91ciBmcmVlIFJlYWN0IHRyYWluaW5nIHNlc3Npb25zIGFuZCBnaXZlIHlvdXIgY2FyZWVyIGEgbmV3IGRpcmVjdGlvbi4gXCIsXG4gICBcImxvY2F0aW9uXCI6IFwiQmVybGluLCBHZXJtYW55XCIsXG4gICBcImNyZWF0b3JcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwib3JnYW5pemVyXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcInN0YXJ0XCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNS0yN1QxNDowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImVuZFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDUtMjdUMTU6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJyZWN1cnJpbmdFdmVudElkXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RcIixcbiAgIFwib3JpZ2luYWxTdGFydFRpbWVcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA1LTI3VDE0OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiaUNhbFVJRFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0QGdvb2dsZS5jb21cIixcbiAgIFwic2VxdWVuY2VcIjogMCxcbiAgIFwicmVtaW5kZXJzXCI6IHtcbiAgICBcInVzZURlZmF1bHRcIjogdHJ1ZVxuICAgfSxcbiAgIFwiZXZlbnRUeXBlXCI6IFwiZGVmYXVsdFwiXG4gIH0sXG4gIHtcbiAgIFwia2luZFwiOiBcImNhbGVuZGFyI2V2ZW50XCIsXG4gICBcImV0YWdcIjogXCJcXFwiMzE4MTE2MTc4NDcxMjAwMFxcXCJcIixcbiAgIFwiaWRcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZV8yMDIwMDUyOFQxNDAwMDBaXCIsXG4gICBcInN0YXR1c1wiOiBcImNvbmZpcm1lZFwiLFxuICAgXCJodG1sTGlua1wiOiBcImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/ZWlkPU5HVmhhSE01WjJocmFISjJhMnhrTnpKb2IyZDFPWEJvTTJWZk1qQXlNREExTWpoVU1UUXdNREF3V2lCbWRXeHNjM1JoWTJ0M1pXSmtaWFpBWTJGeVpXVnlabTkxYm1SeWVTNWpiMjBcIixcbiAgIFwiY3JlYXRlZFwiOiBcIjIwMjAtMDUtMTlUMTk6MTc6NDYuMDAwWlwiLFxuICAgXCJ1cGRhdGVkXCI6IFwiMjAyMC0wNS0yN1QxMjowMTozMi4zNTZaXCIsXG4gICBcInN1bW1hcnlcIjogXCJMZWFybiBKYXZhU2NyaXB0XCIsXG4gICBcImRlc2NyaXB0aW9uXCI6IFwiSGF2ZSB5b3Ugd29uZGVyZWQgaG93IHlvdSBjYW4gYXNrIEdvb2dsZSB0byBzaG93IHlvdSB0aGUgbGlzdCBvZiB0aGUgdG9wIHRlbiBtdXN0LXNlZSBwbGFjZXMgaW4gTG9uZG9uPyBBbmQgaG93IEdvb2dsZSBwcmVzZW50cyB5b3UgdGhlIGxpc3Q/IEhvdyBjYW4geW91IHN1Ym1pdCB0aGUgZGV0YWlscyBvZiBhbiBhcHBsaWNhdGlvbj8gV2VsbCwgSmF2YVNjcmlwdCBpcyBkb2luZyB0aGVzZS4gOikgXFxuXFxuSmF2YXNjcmlwdCBvZmZlcnMgaW50ZXJhY3Rpdml0eSB0byBhIGR1bGwsIHN0YXRpYyB3ZWJzaXRlLiBDb21lLCBsZWFybiBKYXZhU2NyaXB0IHdpdGggdXMgYW5kIG1ha2UgdGhvc2UgYmVhdXRpZnVsIHdlYnNpdGVzLlwiLFxuICAgXCJsb2NhdGlvblwiOiBcIkxvbmRvbiwgVUtcIixcbiAgIFwiY3JlYXRvclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJvcmdhbml6ZXJcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwic3RhcnRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA1LTI4VDE2OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiZW5kXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNS0yOFQxNzowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcInJlY3VycmluZ0V2ZW50SWRcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZVwiLFxuICAgXCJvcmlnaW5hbFN0YXJ0VGltZVwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDUtMjhUMTY6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJpQ2FsVUlEXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VAZ29vZ2xlLmNvbVwiLFxuICAgXCJzZXF1ZW5jZVwiOiAwLFxuICAgXCJyZW1pbmRlcnNcIjoge1xuICAgIFwidXNlRGVmYXVsdFwiOiB0cnVlXG4gICB9LFxuICAgXCJldmVudFR5cGVcIjogXCJkZWZhdWx0XCJcbiAgfSxcbiAge1xuICAgXCJraW5kXCI6IFwiY2FsZW5kYXIjZXZlbnRcIixcbiAgIFwiZXRhZ1wiOiBcIlxcXCIzMTgxMTU5ODc1NTg0MDAwXFxcIlwiLFxuICAgXCJpZFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0XzIwMjAwNTI5VDEyMDAwMFpcIixcbiAgIFwic3RhdHVzXCI6IFwiY29uZmlybWVkXCIsXG4gICBcImh0bWxMaW5rXCI6IFwiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci9ldmVudD9laWQ9TTNGMFpEWjFjMk54TkhSemFUWm5ZemR1YlcxMGNIRnNZM1JmTWpBeU1EQTFNamxVTVRJd01EQXdXaUJtZFd4c2MzUmhZMnQzWldKa1pYWkFZMkZ5WldWeVptOTFibVJ5ZVM1amIyMFwiLFxuICAgXCJjcmVhdGVkXCI6IFwiMjAyMC0wNS0xOVQxOToxNDozMC4wMDBaXCIsXG4gICBcInVwZGF0ZWRcIjogXCIyMDIwLTA1LTI3VDExOjQ1OjM3Ljc5MlpcIixcbiAgIFwic3VtbWFyeVwiOiBcIlJlYWN0IGlzIEZ1blwiLFxuICAgXCJkZXNjcmlwdGlvblwiOiBcIkxvdmUgSFRNTCwgQ1NTLCBhbmQgSlM/IFdhbnQgdG8gYmVjb21lIGEgY29vbCBmcm9udC1lbmQgZGV2ZWxvcGVyPyBcXG5cXG5SZWFjdCBpcyBvbmUgb2YgdGhlIG1vc3QgcG9wdWxhciBmcm9udC1lbmQgZnJhbWV3b3Jrcy4gVGhlcmUgaXMgYSBodWdlIG51bWJlciBvZiBqb2Igb3BlbmluZ3MgZm9yIFJlYWN0IGRldmVsb3BlcnMgaW4gbW9zdCBjaXRpZXMuIFxcblxcbkpvaW4gdXMgaW4gb3VyIGZyZWUgUmVhY3QgdHJhaW5pbmcgc2Vzc2lvbnMgYW5kIGdpdmUgeW91ciBjYXJlZXIgYSBuZXcgZGlyZWN0aW9uLiBcIixcbiAgIFwibG9jYXRpb25cIjogXCJCZXJsaW4sIEdlcm1hbnlcIixcbiAgIFwiY3JlYXRvclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJvcmdhbml6ZXJcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwic3RhcnRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA1LTI5VDE0OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiZW5kXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNS0yOVQxNTowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcInJlY3VycmluZ0V2ZW50SWRcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdFwiLFxuICAgXCJvcmlnaW5hbFN0YXJ0VGltZVwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDUtMjlUMTQ6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJpQ2FsVUlEXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RAZ29vZ2xlLmNvbVwiLFxuICAgXCJzZXF1ZW5jZVwiOiAwLFxuICAgXCJyZW1pbmRlcnNcIjoge1xuICAgIFwidXNlRGVmYXVsdFwiOiB0cnVlXG4gICB9LFxuICAgXCJldmVudFR5cGVcIjogXCJkZWZhdWx0XCJcbiAgfSxcbiAge1xuICAgXCJraW5kXCI6IFwiY2FsZW5kYXIjZXZlbnRcIixcbiAgIFwiZXRhZ1wiOiBcIlxcXCIzMTgxMTYxNzg0NzEyMDAwXFxcIlwiLFxuICAgXCJpZFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlXzIwMjAwNTMwVDE0MDAwMFpcIixcbiAgIFwic3RhdHVzXCI6IFwiY29uZmlybWVkXCIsXG4gICBcImh0bWxMaW5rXCI6IFwiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci9ldmVudD9laWQ9TkdWaGFITTVaMmhyYUhKMmEyeGtOekpvYjJkMU9YQm9NMlZmTWpBeU1EQTFNekJVTVRRd01EQXdXaUJtZFd4c2MzUmhZMnQzWldKa1pYWkFZMkZ5WldWeVptOTFibVJ5ZVM1amIyMFwiLFxuICAgXCJjcmVhdGVkXCI6IFwiMjAyMC0wNS0xOVQxOToxNzo0Ni4wMDBaXCIsXG4gICBcInVwZGF0ZWRcIjogXCIyMDIwLTA1LTI3VDEyOjAxOjMyLjM1NlpcIixcbiAgIFwic3VtbWFyeVwiOiBcIkxlYXJuIEphdmFTY3JpcHRcIixcbiAgIFwiZGVzY3JpcHRpb25cIjogXCJIYXZlIHlvdSB3b25kZXJlZCBob3cgeW91IGNhbiBhc2sgR29vZ2xlIHRvIHNob3cgeW91IHRoZSBsaXN0IG9mIHRoZSB0b3AgdGVuIG11c3Qtc2VlIHBsYWNlcyBpbiBMb25kb24/IEFuZCBob3cgR29vZ2xlIHByZXNlbnRzIHlvdSB0aGUgbGlzdD8gSG93IGNhbiB5b3Ugc3VibWl0IHRoZSBkZXRhaWxzIG9mIGFuIGFwcGxpY2F0aW9uPyBXZWxsLCBKYXZhU2NyaXB0IGlzIGRvaW5nIHRoZXNlLiA6KSBcXG5cXG5KYXZhc2NyaXB0IG9mZmVycyBpbnRlcmFjdGl2aXR5IHRvIGEgZHVsbCwgc3RhdGljIHdlYnNpdGUuIENvbWUsIGxlYXJuIEphdmFTY3JpcHQgd2l0aCB1cyBhbmQgbWFrZSB0aG9zZSBiZWF1dGlmdWwgd2Vic2l0ZXMuXCIsXG4gICBcImxvY2F0aW9uXCI6IFwiTG9uZG9uLCBVS1wiLFxuICAgXCJjcmVhdG9yXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcIm9yZ2FuaXplclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJzdGFydFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDUtMzBUMTY6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJlbmRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA1LTMwVDE3OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwicmVjdXJyaW5nRXZlbnRJZFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlXCIsXG4gICBcIm9yaWdpbmFsU3RhcnRUaW1lXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNS0zMFQxNjowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImlDYWxVSURcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZUBnb29nbGUuY29tXCIsXG4gICBcInNlcXVlbmNlXCI6IDAsXG4gICBcInJlbWluZGVyc1wiOiB7XG4gICAgXCJ1c2VEZWZhdWx0XCI6IHRydWVcbiAgIH0sXG4gICBcImV2ZW50VHlwZVwiOiBcImRlZmF1bHRcIlxuICB9LFxuICB7XG4gICBcImtpbmRcIjogXCJjYWxlbmRhciNldmVudFwiLFxuICAgXCJldGFnXCI6IFwiXFxcIjMxODExNTk4NzU1ODQwMDBcXFwiXCIsXG4gICBcImlkXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDFUMTIwMDAwWlwiLFxuICAgXCJzdGF0dXNcIjogXCJjb25maXJtZWRcIixcbiAgIFwiaHRtbExpbmtcIjogXCJodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2VpZD1NM0YwWkRaMWMyTnhOSFJ6YVRabll6ZHViVzEwY0hGc1kzUmZNakF5TURBMk1ERlVNVEl3TURBd1dpQm1kV3hzYzNSaFkydDNaV0prWlhaQVkyRnlaV1Z5Wm05MWJtUnllUzVqYjIwXCIsXG4gICBcImNyZWF0ZWRcIjogXCIyMDIwLTA1LTE5VDE5OjE0OjMwLjAwMFpcIixcbiAgIFwidXBkYXRlZFwiOiBcIjIwMjAtMDUtMjdUMTE6NDU6MzcuNzkyWlwiLFxuICAgXCJzdW1tYXJ5XCI6IFwiUmVhY3QgaXMgRnVuXCIsXG4gICBcImRlc2NyaXB0aW9uXCI6IFwiTG92ZSBIVE1MLCBDU1MsIGFuZCBKUz8gV2FudCB0byBiZWNvbWUgYSBjb29sIGZyb250LWVuZCBkZXZlbG9wZXI/IFxcblxcblJlYWN0IGlzIG9uZSBvZiB0aGUgbW9zdCBwb3B1bGFyIGZyb250LWVuZCBmcmFtZXdvcmtzLiBUaGVyZSBpcyBhIGh1Z2UgbnVtYmVyIG9mIGpvYiBvcGVuaW5ncyBmb3IgUmVhY3QgZGV2ZWxvcGVycyBpbiBtb3N0IGNpdGllcy4gXFxuXFxuSm9pbiB1cyBpbiBvdXIgZnJlZSBSZWFjdCB0cmFpbmluZyBzZXNzaW9ucyBhbmQgZ2l2ZSB5b3VyIGNhcmVlciBhIG5ldyBkaXJlY3Rpb24uIFwiLFxuICAgXCJsb2NhdGlvblwiOiBcIkJlcmxpbiwgR2VybWFueVwiLFxuICAgXCJjcmVhdG9yXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcIm9yZ2FuaXplclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJzdGFydFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMDFUMTQ6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJlbmRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTAxVDE1OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwicmVjdXJyaW5nRXZlbnRJZFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0XCIsXG4gICBcIm9yaWdpbmFsU3RhcnRUaW1lXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0wMVQxNDowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImlDYWxVSURcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdEBnb29nbGUuY29tXCIsXG4gICBcInNlcXVlbmNlXCI6IDAsXG4gICBcInJlbWluZGVyc1wiOiB7XG4gICAgXCJ1c2VEZWZhdWx0XCI6IHRydWVcbiAgIH0sXG4gICBcImV2ZW50VHlwZVwiOiBcImRlZmF1bHRcIlxuICB9LFxuICB7XG4gICBcImtpbmRcIjogXCJjYWxlbmRhciNldmVudFwiLFxuICAgXCJldGFnXCI6IFwiXFxcIjMxODExNjE3ODQ3MTIwMDBcXFwiXCIsXG4gICBcImlkXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDJUMTQwMDAwWlwiLFxuICAgXCJzdGF0dXNcIjogXCJjb25maXJtZWRcIixcbiAgIFwiaHRtbExpbmtcIjogXCJodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2VpZD1OR1ZoYUhNNVoyaHJhSEoyYTJ4a056Sm9iMmQxT1hCb00yVmZNakF5TURBMk1ESlVNVFF3TURBd1dpQm1kV3hzYzNSaFkydDNaV0prWlhaQVkyRnlaV1Z5Wm05MWJtUnllUzVqYjIwXCIsXG4gICBcImNyZWF0ZWRcIjogXCIyMDIwLTA1LTE5VDE5OjE3OjQ2LjAwMFpcIixcbiAgIFwidXBkYXRlZFwiOiBcIjIwMjAtMDUtMjdUMTI6MDE6MzIuMzU2WlwiLFxuICAgXCJzdW1tYXJ5XCI6IFwiTGVhcm4gSmF2YVNjcmlwdFwiLFxuICAgXCJkZXNjcmlwdGlvblwiOiBcIkhhdmUgeW91IHdvbmRlcmVkIGhvdyB5b3UgY2FuIGFzayBHb29nbGUgdG8gc2hvdyB5b3UgdGhlIGxpc3Qgb2YgdGhlIHRvcCB0ZW4gbXVzdC1zZWUgcGxhY2VzIGluIExvbmRvbj8gQW5kIGhvdyBHb29nbGUgcHJlc2VudHMgeW91IHRoZSBsaXN0PyBIb3cgY2FuIHlvdSBzdWJtaXQgdGhlIGRldGFpbHMgb2YgYW4gYXBwbGljYXRpb24/IFdlbGwsIEphdmFTY3JpcHQgaXMgZG9pbmcgdGhlc2UuIDopIFxcblxcbkphdmFzY3JpcHQgb2ZmZXJzIGludGVyYWN0aXZpdHkgdG8gYSBkdWxsLCBzdGF0aWMgd2Vic2l0ZS4gQ29tZSwgbGVhcm4gSmF2YVNjcmlwdCB3aXRoIHVzIGFuZCBtYWtlIHRob3NlIGJlYXV0aWZ1bCB3ZWJzaXRlcy5cIixcbiAgIFwibG9jYXRpb25cIjogXCJMb25kb24sIFVLXCIsXG4gICBcImNyZWF0b3JcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwib3JnYW5pemVyXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcInN0YXJ0XCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0wMlQxNjowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImVuZFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMDJUMTc6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJyZWN1cnJpbmdFdmVudElkXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VcIixcbiAgIFwib3JpZ2luYWxTdGFydFRpbWVcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTAyVDE2OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiaUNhbFVJRFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlQGdvb2dsZS5jb21cIixcbiAgIFwic2VxdWVuY2VcIjogMCxcbiAgIFwicmVtaW5kZXJzXCI6IHtcbiAgICBcInVzZURlZmF1bHRcIjogdHJ1ZVxuICAgfSxcbiAgIFwiZXZlbnRUeXBlXCI6IFwiZGVmYXVsdFwiXG4gIH0sXG4gIHtcbiAgIFwia2luZFwiOiBcImNhbGVuZGFyI2V2ZW50XCIsXG4gICBcImV0YWdcIjogXCJcXFwiMzE4MTE1OTg3NTU4NDAwMFxcXCJcIixcbiAgIFwiaWRcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdF8yMDIwMDYwM1QxMjAwMDBaXCIsXG4gICBcInN0YXR1c1wiOiBcImNvbmZpcm1lZFwiLFxuICAgXCJodG1sTGlua1wiOiBcImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/ZWlkPU0zRjBaRFoxYzJOeE5IUnphVFpuWXpkdWJXMTBjSEZzWTNSZk1qQXlNREEyTUROVU1USXdNREF3V2lCbWRXeHNjM1JoWTJ0M1pXSmtaWFpBWTJGeVpXVnlabTkxYm1SeWVTNWpiMjBcIixcbiAgIFwiY3JlYXRlZFwiOiBcIjIwMjAtMDUtMTlUMTk6MTQ6MzAuMDAwWlwiLFxuICAgXCJ1cGRhdGVkXCI6IFwiMjAyMC0wNS0yN1QxMTo0NTozNy43OTJaXCIsXG4gICBcInN1bW1hcnlcIjogXCJSZWFjdCBpcyBGdW5cIixcbiAgIFwiZGVzY3JpcHRpb25cIjogXCJMb3ZlIEhUTUwsIENTUywgYW5kIEpTPyBXYW50IHRvIGJlY29tZSBhIGNvb2wgZnJvbnQtZW5kIGRldmVsb3Blcj8gXFxuXFxuUmVhY3QgaXMgb25lIG9mIHRoZSBtb3N0IHBvcHVsYXIgZnJvbnQtZW5kIGZyYW1ld29ya3MuIFRoZXJlIGlzIGEgaHVnZSBudW1iZXIgb2Ygam9iIG9wZW5pbmdzIGZvciBSZWFjdCBkZXZlbG9wZXJzIGluIG1vc3QgY2l0aWVzLiBcXG5cXG5Kb2luIHVzIGluIG91ciBmcmVlIFJlYWN0IHRyYWluaW5nIHNlc3Npb25zIGFuZCBnaXZlIHlvdXIgY2FyZWVyIGEgbmV3IGRpcmVjdGlvbi4gXCIsXG4gICBcImxvY2F0aW9uXCI6IFwiQmVybGluLCBHZXJtYW55XCIsXG4gICBcImNyZWF0b3JcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwib3JnYW5pemVyXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcInN0YXJ0XCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0wM1QxNDowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImVuZFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMDNUMTU6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJyZWN1cnJpbmdFdmVudElkXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RcIixcbiAgIFwib3JpZ2luYWxTdGFydFRpbWVcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTAzVDE0OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiaUNhbFVJRFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0QGdvb2dsZS5jb21cIixcbiAgIFwic2VxdWVuY2VcIjogMCxcbiAgIFwicmVtaW5kZXJzXCI6IHtcbiAgICBcInVzZURlZmF1bHRcIjogdHJ1ZVxuICAgfSxcbiAgIFwiZXZlbnRUeXBlXCI6IFwiZGVmYXVsdFwiXG4gIH0sXG4gIHtcbiAgIFwia2luZFwiOiBcImNhbGVuZGFyI2V2ZW50XCIsXG4gICBcImV0YWdcIjogXCJcXFwiMzE4MTE2MTc4NDcxMjAwMFxcXCJcIixcbiAgIFwiaWRcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZV8yMDIwMDYwNFQxNDAwMDBaXCIsXG4gICBcInN0YXR1c1wiOiBcImNvbmZpcm1lZFwiLFxuICAgXCJodG1sTGlua1wiOiBcImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/ZWlkPU5HVmhhSE01WjJocmFISjJhMnhrTnpKb2IyZDFPWEJvTTJWZk1qQXlNREEyTURSVU1UUXdNREF3V2lCbWRXeHNjM1JoWTJ0M1pXSmtaWFpBWTJGeVpXVnlabTkxYm1SeWVTNWpiMjBcIixcbiAgIFwiY3JlYXRlZFwiOiBcIjIwMjAtMDUtMTlUMTk6MTc6NDYuMDAwWlwiLFxuICAgXCJ1cGRhdGVkXCI6IFwiMjAyMC0wNS0yN1QxMjowMTozMi4zNTZaXCIsXG4gICBcInN1bW1hcnlcIjogXCJMZWFybiBKYXZhU2NyaXB0XCIsXG4gICBcImRlc2NyaXB0aW9uXCI6IFwiSGF2ZSB5b3Ugd29uZGVyZWQgaG93IHlvdSBjYW4gYXNrIEdvb2dsZSB0byBzaG93IHlvdSB0aGUgbGlzdCBvZiB0aGUgdG9wIHRlbiBtdXN0LXNlZSBwbGFjZXMgaW4gTG9uZG9uPyBBbmQgaG93IEdvb2dsZSBwcmVzZW50cyB5b3UgdGhlIGxpc3Q/IEhvdyBjYW4geW91IHN1Ym1pdCB0aGUgZGV0YWlscyBvZiBhbiBhcHBsaWNhdGlvbj8gV2VsbCwgSmF2YVNjcmlwdCBpcyBkb2luZyB0aGVzZS4gOikgXFxuXFxuSmF2YXNjcmlwdCBvZmZlcnMgaW50ZXJhY3Rpdml0eSB0byBhIGR1bGwsIHN0YXRpYyB3ZWJzaXRlLiBDb21lLCBsZWFybiBKYXZhU2NyaXB0IHdpdGggdXMgYW5kIG1ha2UgdGhvc2UgYmVhdXRpZnVsIHdlYnNpdGVzLlwiLFxuICAgXCJsb2NhdGlvblwiOiBcIkxvbmRvbiwgVUtcIixcbiAgIFwiY3JlYXRvclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJvcmdhbml6ZXJcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwic3RhcnRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTA0VDE2OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiZW5kXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0wNFQxNzowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcInJlY3VycmluZ0V2ZW50SWRcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZVwiLFxuICAgXCJvcmlnaW5hbFN0YXJ0VGltZVwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMDRUMTY6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJpQ2FsVUlEXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VAZ29vZ2xlLmNvbVwiLFxuICAgXCJzZXF1ZW5jZVwiOiAwLFxuICAgXCJyZW1pbmRlcnNcIjoge1xuICAgIFwidXNlRGVmYXVsdFwiOiB0cnVlXG4gICB9LFxuICAgXCJldmVudFR5cGVcIjogXCJkZWZhdWx0XCJcbiAgfSxcbiAge1xuICAgXCJraW5kXCI6IFwiY2FsZW5kYXIjZXZlbnRcIixcbiAgIFwiZXRhZ1wiOiBcIlxcXCIzMTgxMTU5ODc1NTg0MDAwXFxcIlwiLFxuICAgXCJpZFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0XzIwMjAwNjA1VDEyMDAwMFpcIixcbiAgIFwic3RhdHVzXCI6IFwiY29uZmlybWVkXCIsXG4gICBcImh0bWxMaW5rXCI6IFwiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci9ldmVudD9laWQ9TTNGMFpEWjFjMk54TkhSemFUWm5ZemR1YlcxMGNIRnNZM1JmTWpBeU1EQTJNRFZVTVRJd01EQXdXaUJtZFd4c2MzUmhZMnQzWldKa1pYWkFZMkZ5WldWeVptOTFibVJ5ZVM1amIyMFwiLFxuICAgXCJjcmVhdGVkXCI6IFwiMjAyMC0wNS0xOVQxOToxNDozMC4wMDBaXCIsXG4gICBcInVwZGF0ZWRcIjogXCIyMDIwLTA1LTI3VDExOjQ1OjM3Ljc5MlpcIixcbiAgIFwic3VtbWFyeVwiOiBcIlJlYWN0IGlzIEZ1blwiLFxuICAgXCJkZXNjcmlwdGlvblwiOiBcIkxvdmUgSFRNTCwgQ1NTLCBhbmQgSlM/IFdhbnQgdG8gYmVjb21lIGEgY29vbCBmcm9udC1lbmQgZGV2ZWxvcGVyPyBcXG5cXG5SZWFjdCBpcyBvbmUgb2YgdGhlIG1vc3QgcG9wdWxhciBmcm9udC1lbmQgZnJhbWV3b3Jrcy4gVGhlcmUgaXMgYSBodWdlIG51bWJlciBvZiBqb2Igb3BlbmluZ3MgZm9yIFJlYWN0IGRldmVsb3BlcnMgaW4gbW9zdCBjaXRpZXMuIFxcblxcbkpvaW4gdXMgaW4gb3VyIGZyZWUgUmVhY3QgdHJhaW5pbmcgc2Vzc2lvbnMgYW5kIGdpdmUgeW91ciBjYXJlZXIgYSBuZXcgZGlyZWN0aW9uLiBcIixcbiAgIFwibG9jYXRpb25cIjogXCJCZXJsaW4sIEdlcm1hbnlcIixcbiAgIFwiY3JlYXRvclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJvcmdhbml6ZXJcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwic3RhcnRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTA1VDE0OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiZW5kXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0wNVQxNTowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcInJlY3VycmluZ0V2ZW50SWRcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdFwiLFxuICAgXCJvcmlnaW5hbFN0YXJ0VGltZVwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMDVUMTQ6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJpQ2FsVUlEXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RAZ29vZ2xlLmNvbVwiLFxuICAgXCJzZXF1ZW5jZVwiOiAwLFxuICAgXCJyZW1pbmRlcnNcIjoge1xuICAgIFwidXNlRGVmYXVsdFwiOiB0cnVlXG4gICB9LFxuICAgXCJldmVudFR5cGVcIjogXCJkZWZhdWx0XCJcbiAgfSxcbiAge1xuICAgXCJraW5kXCI6IFwiY2FsZW5kYXIjZXZlbnRcIixcbiAgIFwiZXRhZ1wiOiBcIlxcXCIzMTgxMTYxNzg0NzEyMDAwXFxcIlwiLFxuICAgXCJpZFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlXzIwMjAwNjA2VDE0MDAwMFpcIixcbiAgIFwic3RhdHVzXCI6IFwiY29uZmlybWVkXCIsXG4gICBcImh0bWxMaW5rXCI6IFwiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci9ldmVudD9laWQ9TkdWaGFITTVaMmhyYUhKMmEyeGtOekpvYjJkMU9YQm9NMlZmTWpBeU1EQTJNRFpVTVRRd01EQXdXaUJtZFd4c2MzUmhZMnQzWldKa1pYWkFZMkZ5WldWeVptOTFibVJ5ZVM1amIyMFwiLFxuICAgXCJjcmVhdGVkXCI6IFwiMjAyMC0wNS0xOVQxOToxNzo0Ni4wMDBaXCIsXG4gICBcInVwZGF0ZWRcIjogXCIyMDIwLTA1LTI3VDEyOjAxOjMyLjM1NlpcIixcbiAgIFwic3VtbWFyeVwiOiBcIkxlYXJuIEphdmFTY3JpcHRcIixcbiAgIFwiZGVzY3JpcHRpb25cIjogXCJIYXZlIHlvdSB3b25kZXJlZCBob3cgeW91IGNhbiBhc2sgR29vZ2xlIHRvIHNob3cgeW91IHRoZSBsaXN0IG9mIHRoZSB0b3AgdGVuIG11c3Qtc2VlIHBsYWNlcyBpbiBMb25kb24/IEFuZCBob3cgR29vZ2xlIHByZXNlbnRzIHlvdSB0aGUgbGlzdD8gSG93IGNhbiB5b3Ugc3VibWl0IHRoZSBkZXRhaWxzIG9mIGFuIGFwcGxpY2F0aW9uPyBXZWxsLCBKYXZhU2NyaXB0IGlzIGRvaW5nIHRoZXNlLiA6KSBcXG5cXG5KYXZhc2NyaXB0IG9mZmVycyBpbnRlcmFjdGl2aXR5IHRvIGEgZHVsbCwgc3RhdGljIHdlYnNpdGUuIENvbWUsIGxlYXJuIEphdmFTY3JpcHQgd2l0aCB1cyBhbmQgbWFrZSB0aG9zZSBiZWF1dGlmdWwgd2Vic2l0ZXMuXCIsXG4gICBcImxvY2F0aW9uXCI6IFwiTG9uZG9uLCBVS1wiLFxuICAgXCJjcmVhdG9yXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcIm9yZ2FuaXplclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJzdGFydFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMDZUMTY6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJlbmRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTA2VDE3OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwicmVjdXJyaW5nRXZlbnRJZFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlXCIsXG4gICBcIm9yaWdpbmFsU3RhcnRUaW1lXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0wNlQxNjowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImlDYWxVSURcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZUBnb29nbGUuY29tXCIsXG4gICBcInNlcXVlbmNlXCI6IDAsXG4gICBcInJlbWluZGVyc1wiOiB7XG4gICAgXCJ1c2VEZWZhdWx0XCI6IHRydWVcbiAgIH0sXG4gICBcImV2ZW50VHlwZVwiOiBcImRlZmF1bHRcIlxuICB9LFxuICB7XG4gICBcImtpbmRcIjogXCJjYWxlbmRhciNldmVudFwiLFxuICAgXCJldGFnXCI6IFwiXFxcIjMxODExNTk4NzU1ODQwMDBcXFwiXCIsXG4gICBcImlkXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDhUMTIwMDAwWlwiLFxuICAgXCJzdGF0dXNcIjogXCJjb25maXJtZWRcIixcbiAgIFwiaHRtbExpbmtcIjogXCJodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2VpZD1NM0YwWkRaMWMyTnhOSFJ6YVRabll6ZHViVzEwY0hGc1kzUmZNakF5TURBMk1EaFVNVEl3TURBd1dpQm1kV3hzYzNSaFkydDNaV0prWlhaQVkyRnlaV1Z5Wm05MWJtUnllUzVqYjIwXCIsXG4gICBcImNyZWF0ZWRcIjogXCIyMDIwLTA1LTE5VDE5OjE0OjMwLjAwMFpcIixcbiAgIFwidXBkYXRlZFwiOiBcIjIwMjAtMDUtMjdUMTE6NDU6MzcuNzkyWlwiLFxuICAgXCJzdW1tYXJ5XCI6IFwiUmVhY3QgaXMgRnVuXCIsXG4gICBcImRlc2NyaXB0aW9uXCI6IFwiTG92ZSBIVE1MLCBDU1MsIGFuZCBKUz8gV2FudCB0byBiZWNvbWUgYSBjb29sIGZyb250LWVuZCBkZXZlbG9wZXI/IFxcblxcblJlYWN0IGlzIG9uZSBvZiB0aGUgbW9zdCBwb3B1bGFyIGZyb250LWVuZCBmcmFtZXdvcmtzLiBUaGVyZSBpcyBhIGh1Z2UgbnVtYmVyIG9mIGpvYiBvcGVuaW5ncyBmb3IgUmVhY3QgZGV2ZWxvcGVycyBpbiBtb3N0IGNpdGllcy4gXFxuXFxuSm9pbiB1cyBpbiBvdXIgZnJlZSBSZWFjdCB0cmFpbmluZyBzZXNzaW9ucyBhbmQgZ2l2ZSB5b3VyIGNhcmVlciBhIG5ldyBkaXJlY3Rpb24uIFwiLFxuICAgXCJsb2NhdGlvblwiOiBcIkJlcmxpbiwgR2VybWFueVwiLFxuICAgXCJjcmVhdG9yXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcIm9yZ2FuaXplclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJzdGFydFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMDhUMTQ6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJlbmRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTA4VDE1OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwicmVjdXJyaW5nRXZlbnRJZFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0XCIsXG4gICBcIm9yaWdpbmFsU3RhcnRUaW1lXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0wOFQxNDowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImlDYWxVSURcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdEBnb29nbGUuY29tXCIsXG4gICBcInNlcXVlbmNlXCI6IDAsXG4gICBcInJlbWluZGVyc1wiOiB7XG4gICAgXCJ1c2VEZWZhdWx0XCI6IHRydWVcbiAgIH0sXG4gICBcImV2ZW50VHlwZVwiOiBcImRlZmF1bHRcIlxuICB9LFxuICB7XG4gICBcImtpbmRcIjogXCJjYWxlbmRhciNldmVudFwiLFxuICAgXCJldGFnXCI6IFwiXFxcIjMxODExNjE3ODQ3MTIwMDBcXFwiXCIsXG4gICBcImlkXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDlUMTQwMDAwWlwiLFxuICAgXCJzdGF0dXNcIjogXCJjb25maXJtZWRcIixcbiAgIFwiaHRtbExpbmtcIjogXCJodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2VpZD1OR1ZoYUhNNVoyaHJhSEoyYTJ4a056Sm9iMmQxT1hCb00yVmZNakF5TURBMk1EbFVNVFF3TURBd1dpQm1kV3hzYzNSaFkydDNaV0prWlhaQVkyRnlaV1Z5Wm05MWJtUnllUzVqYjIwXCIsXG4gICBcImNyZWF0ZWRcIjogXCIyMDIwLTA1LTE5VDE5OjE3OjQ2LjAwMFpcIixcbiAgIFwidXBkYXRlZFwiOiBcIjIwMjAtMDUtMjdUMTI6MDE6MzIuMzU2WlwiLFxuICAgXCJzdW1tYXJ5XCI6IFwiTGVhcm4gSmF2YVNjcmlwdFwiLFxuICAgXCJkZXNjcmlwdGlvblwiOiBcIkhhdmUgeW91IHdvbmRlcmVkIGhvdyB5b3UgY2FuIGFzayBHb29nbGUgdG8gc2hvdyB5b3UgdGhlIGxpc3Qgb2YgdGhlIHRvcCB0ZW4gbXVzdC1zZWUgcGxhY2VzIGluIExvbmRvbj8gQW5kIGhvdyBHb29nbGUgcHJlc2VudHMgeW91IHRoZSBsaXN0PyBIb3cgY2FuIHlvdSBzdWJtaXQgdGhlIGRldGFpbHMgb2YgYW4gYXBwbGljYXRpb24/IFdlbGwsIEphdmFTY3JpcHQgaXMgZG9pbmcgdGhlc2UuIDopIFxcblxcbkphdmFzY3JpcHQgb2ZmZXJzIGludGVyYWN0aXZpdHkgdG8gYSBkdWxsLCBzdGF0aWMgd2Vic2l0ZS4gQ29tZSwgbGVhcm4gSmF2YVNjcmlwdCB3aXRoIHVzIGFuZCBtYWtlIHRob3NlIGJlYXV0aWZ1bCB3ZWJzaXRlcy5cIixcbiAgIFwibG9jYXRpb25cIjogXCJMb25kb24sIFVLXCIsXG4gICBcImNyZWF0b3JcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwib3JnYW5pemVyXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcInN0YXJ0XCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0wOVQxNjowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImVuZFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMDlUMTc6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJyZWN1cnJpbmdFdmVudElkXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VcIixcbiAgIFwib3JpZ2luYWxTdGFydFRpbWVcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTA5VDE2OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiaUNhbFVJRFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlQGdvb2dsZS5jb21cIixcbiAgIFwic2VxdWVuY2VcIjogMCxcbiAgIFwicmVtaW5kZXJzXCI6IHtcbiAgICBcInVzZURlZmF1bHRcIjogdHJ1ZVxuICAgfSxcbiAgIFwiZXZlbnRUeXBlXCI6IFwiZGVmYXVsdFwiXG4gIH0sXG4gIHtcbiAgIFwia2luZFwiOiBcImNhbGVuZGFyI2V2ZW50XCIsXG4gICBcImV0YWdcIjogXCJcXFwiMzE4MTE1OTg3NTU4NDAwMFxcXCJcIixcbiAgIFwiaWRcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdF8yMDIwMDYxMFQxMjAwMDBaXCIsXG4gICBcInN0YXR1c1wiOiBcImNvbmZpcm1lZFwiLFxuICAgXCJodG1sTGlua1wiOiBcImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/ZWlkPU0zRjBaRFoxYzJOeE5IUnphVFpuWXpkdWJXMTBjSEZzWTNSZk1qQXlNREEyTVRCVU1USXdNREF3V2lCbWRXeHNjM1JoWTJ0M1pXSmtaWFpBWTJGeVpXVnlabTkxYm1SeWVTNWpiMjBcIixcbiAgIFwiY3JlYXRlZFwiOiBcIjIwMjAtMDUtMTlUMTk6MTQ6MzAuMDAwWlwiLFxuICAgXCJ1cGRhdGVkXCI6IFwiMjAyMC0wNS0yN1QxMTo0NTozNy43OTJaXCIsXG4gICBcInN1bW1hcnlcIjogXCJSZWFjdCBpcyBGdW5cIixcbiAgIFwiZGVzY3JpcHRpb25cIjogXCJMb3ZlIEhUTUwsIENTUywgYW5kIEpTPyBXYW50IHRvIGJlY29tZSBhIGNvb2wgZnJvbnQtZW5kIGRldmVsb3Blcj8gXFxuXFxuUmVhY3QgaXMgb25lIG9mIHRoZSBtb3N0IHBvcHVsYXIgZnJvbnQtZW5kIGZyYW1ld29ya3MuIFRoZXJlIGlzIGEgaHVnZSBudW1iZXIgb2Ygam9iIG9wZW5pbmdzIGZvciBSZWFjdCBkZXZlbG9wZXJzIGluIG1vc3QgY2l0aWVzLiBcXG5cXG5Kb2luIHVzIGluIG91ciBmcmVlIFJlYWN0IHRyYWluaW5nIHNlc3Npb25zIGFuZCBnaXZlIHlvdXIgY2FyZWVyIGEgbmV3IGRpcmVjdGlvbi4gXCIsXG4gICBcImxvY2F0aW9uXCI6IFwiQmVybGluLCBHZXJtYW55XCIsXG4gICBcImNyZWF0b3JcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwib3JnYW5pemVyXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcInN0YXJ0XCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0xMFQxNDowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImVuZFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMTBUMTU6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJyZWN1cnJpbmdFdmVudElkXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RcIixcbiAgIFwib3JpZ2luYWxTdGFydFRpbWVcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTEwVDE0OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiaUNhbFVJRFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0QGdvb2dsZS5jb21cIixcbiAgIFwic2VxdWVuY2VcIjogMCxcbiAgIFwicmVtaW5kZXJzXCI6IHtcbiAgICBcInVzZURlZmF1bHRcIjogdHJ1ZVxuICAgfSxcbiAgIFwiZXZlbnRUeXBlXCI6IFwiZGVmYXVsdFwiXG4gIH0sXG4gIHtcbiAgIFwia2luZFwiOiBcImNhbGVuZGFyI2V2ZW50XCIsXG4gICBcImV0YWdcIjogXCJcXFwiMzE4MTE2MTc4NDcxMjAwMFxcXCJcIixcbiAgIFwiaWRcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZV8yMDIwMDYxMVQxNDAwMDBaXCIsXG4gICBcInN0YXR1c1wiOiBcImNvbmZpcm1lZFwiLFxuICAgXCJodG1sTGlua1wiOiBcImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/ZWlkPU5HVmhhSE01WjJocmFISjJhMnhrTnpKb2IyZDFPWEJvTTJWZk1qQXlNREEyTVRGVU1UUXdNREF3V2lCbWRXeHNjM1JoWTJ0M1pXSmtaWFpBWTJGeVpXVnlabTkxYm1SeWVTNWpiMjBcIixcbiAgIFwiY3JlYXRlZFwiOiBcIjIwMjAtMDUtMTlUMTk6MTc6NDYuMDAwWlwiLFxuICAgXCJ1cGRhdGVkXCI6IFwiMjAyMC0wNS0yN1QxMjowMTozMi4zNTZaXCIsXG4gICBcInN1bW1hcnlcIjogXCJMZWFybiBKYXZhU2NyaXB0XCIsXG4gICBcImRlc2NyaXB0aW9uXCI6IFwiSGF2ZSB5b3Ugd29uZGVyZWQgaG93IHlvdSBjYW4gYXNrIEdvb2dsZSB0byBzaG93IHlvdSB0aGUgbGlzdCBvZiB0aGUgdG9wIHRlbiBtdXN0LXNlZSBwbGFjZXMgaW4gTG9uZG9uPyBBbmQgaG93IEdvb2dsZSBwcmVzZW50cyB5b3UgdGhlIGxpc3Q/IEhvdyBjYW4geW91IHN1Ym1pdCB0aGUgZGV0YWlscyBvZiBhbiBhcHBsaWNhdGlvbj8gV2VsbCwgSmF2YVNjcmlwdCBpcyBkb2luZyB0aGVzZS4gOikgXFxuXFxuSmF2YXNjcmlwdCBvZmZlcnMgaW50ZXJhY3Rpdml0eSB0byBhIGR1bGwsIHN0YXRpYyB3ZWJzaXRlLiBDb21lLCBsZWFybiBKYXZhU2NyaXB0IHdpdGggdXMgYW5kIG1ha2UgdGhvc2UgYmVhdXRpZnVsIHdlYnNpdGVzLlwiLFxuICAgXCJsb2NhdGlvblwiOiBcIkxvbmRvbiwgVUtcIixcbiAgIFwiY3JlYXRvclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJvcmdhbml6ZXJcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwic3RhcnRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTExVDE2OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiZW5kXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0xMVQxNzowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcInJlY3VycmluZ0V2ZW50SWRcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZVwiLFxuICAgXCJvcmlnaW5hbFN0YXJ0VGltZVwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMTFUMTY6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJpQ2FsVUlEXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VAZ29vZ2xlLmNvbVwiLFxuICAgXCJzZXF1ZW5jZVwiOiAwLFxuICAgXCJyZW1pbmRlcnNcIjoge1xuICAgIFwidXNlRGVmYXVsdFwiOiB0cnVlXG4gICB9LFxuICAgXCJldmVudFR5cGVcIjogXCJkZWZhdWx0XCJcbiAgfSxcbiAge1xuICAgXCJraW5kXCI6IFwiY2FsZW5kYXIjZXZlbnRcIixcbiAgIFwiZXRhZ1wiOiBcIlxcXCIzMTgxMTU5ODc1NTg0MDAwXFxcIlwiLFxuICAgXCJpZFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0XzIwMjAwNjEyVDEyMDAwMFpcIixcbiAgIFwic3RhdHVzXCI6IFwiY29uZmlybWVkXCIsXG4gICBcImh0bWxMaW5rXCI6IFwiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci9ldmVudD9laWQ9TTNGMFpEWjFjMk54TkhSemFUWm5ZemR1YlcxMGNIRnNZM1JmTWpBeU1EQTJNVEpVTVRJd01EQXdXaUJtZFd4c2MzUmhZMnQzWldKa1pYWkFZMkZ5WldWeVptOTFibVJ5ZVM1amIyMFwiLFxuICAgXCJjcmVhdGVkXCI6IFwiMjAyMC0wNS0xOVQxOToxNDozMC4wMDBaXCIsXG4gICBcInVwZGF0ZWRcIjogXCIyMDIwLTA1LTI3VDExOjQ1OjM3Ljc5MlpcIixcbiAgIFwic3VtbWFyeVwiOiBcIlJlYWN0IGlzIEZ1blwiLFxuICAgXCJkZXNjcmlwdGlvblwiOiBcIkxvdmUgSFRNTCwgQ1NTLCBhbmQgSlM/IFdhbnQgdG8gYmVjb21lIGEgY29vbCBmcm9udC1lbmQgZGV2ZWxvcGVyPyBcXG5cXG5SZWFjdCBpcyBvbmUgb2YgdGhlIG1vc3QgcG9wdWxhciBmcm9udC1lbmQgZnJhbWV3b3Jrcy4gVGhlcmUgaXMgYSBodWdlIG51bWJlciBvZiBqb2Igb3BlbmluZ3MgZm9yIFJlYWN0IGRldmVsb3BlcnMgaW4gbW9zdCBjaXRpZXMuIFxcblxcbkpvaW4gdXMgaW4gb3VyIGZyZWUgUmVhY3QgdHJhaW5pbmcgc2Vzc2lvbnMgYW5kIGdpdmUgeW91ciBjYXJlZXIgYSBuZXcgZGlyZWN0aW9uLiBcIixcbiAgIFwibG9jYXRpb25cIjogXCJCZXJsaW4sIEdlcm1hbnlcIixcbiAgIFwiY3JlYXRvclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJvcmdhbml6ZXJcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwic3RhcnRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTEyVDE0OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiZW5kXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0xMlQxNTowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcInJlY3VycmluZ0V2ZW50SWRcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdFwiLFxuICAgXCJvcmlnaW5hbFN0YXJ0VGltZVwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMTJUMTQ6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJpQ2FsVUlEXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RAZ29vZ2xlLmNvbVwiLFxuICAgXCJzZXF1ZW5jZVwiOiAwLFxuICAgXCJyZW1pbmRlcnNcIjoge1xuICAgIFwidXNlRGVmYXVsdFwiOiB0cnVlXG4gICB9LFxuICAgXCJldmVudFR5cGVcIjogXCJkZWZhdWx0XCJcbiAgfSxcbiAge1xuICAgXCJraW5kXCI6IFwiY2FsZW5kYXIjZXZlbnRcIixcbiAgIFwiZXRhZ1wiOiBcIlxcXCIzMTgxMTYxNzg0NzEyMDAwXFxcIlwiLFxuICAgXCJpZFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlXzIwMjAwNjEzVDE0MDAwMFpcIixcbiAgIFwic3RhdHVzXCI6IFwiY29uZmlybWVkXCIsXG4gICBcImh0bWxMaW5rXCI6IFwiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci9ldmVudD9laWQ9TkdWaGFITTVaMmhyYUhKMmEyeGtOekpvYjJkMU9YQm9NMlZmTWpBeU1EQTJNVE5VTVRRd01EQXdXaUJtZFd4c2MzUmhZMnQzWldKa1pYWkFZMkZ5WldWeVptOTFibVJ5ZVM1amIyMFwiLFxuICAgXCJjcmVhdGVkXCI6IFwiMjAyMC0wNS0xOVQxOToxNzo0Ni4wMDBaXCIsXG4gICBcInVwZGF0ZWRcIjogXCIyMDIwLTA1LTI3VDEyOjAxOjMyLjM1NlpcIixcbiAgIFwic3VtbWFyeVwiOiBcIkxlYXJuIEphdmFTY3JpcHRcIixcbiAgIFwiZGVzY3JpcHRpb25cIjogXCJIYXZlIHlvdSB3b25kZXJlZCBob3cgeW91IGNhbiBhc2sgR29vZ2xlIHRvIHNob3cgeW91IHRoZSBsaXN0IG9mIHRoZSB0b3AgdGVuIG11c3Qtc2VlIHBsYWNlcyBpbiBMb25kb24/IEFuZCBob3cgR29vZ2xlIHByZXNlbnRzIHlvdSB0aGUgbGlzdD8gSG93IGNhbiB5b3Ugc3VibWl0IHRoZSBkZXRhaWxzIG9mIGFuIGFwcGxpY2F0aW9uPyBXZWxsLCBKYXZhU2NyaXB0IGlzIGRvaW5nIHRoZXNlLiA6KSBcXG5cXG5KYXZhc2NyaXB0IG9mZmVycyBpbnRlcmFjdGl2aXR5IHRvIGEgZHVsbCwgc3RhdGljIHdlYnNpdGUuIENvbWUsIGxlYXJuIEphdmFTY3JpcHQgd2l0aCB1cyBhbmQgbWFrZSB0aG9zZSBiZWF1dGlmdWwgd2Vic2l0ZXMuXCIsXG4gICBcImxvY2F0aW9uXCI6IFwiTG9uZG9uLCBVS1wiLFxuICAgXCJjcmVhdG9yXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcIm9yZ2FuaXplclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJzdGFydFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMTNUMTY6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJlbmRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTEzVDE3OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwicmVjdXJyaW5nRXZlbnRJZFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlXCIsXG4gICBcIm9yaWdpbmFsU3RhcnRUaW1lXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0xM1QxNjowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImlDYWxVSURcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZUBnb29nbGUuY29tXCIsXG4gICBcInNlcXVlbmNlXCI6IDAsXG4gICBcInJlbWluZGVyc1wiOiB7XG4gICAgXCJ1c2VEZWZhdWx0XCI6IHRydWVcbiAgIH0sXG4gICBcImV2ZW50VHlwZVwiOiBcImRlZmF1bHRcIlxuICB9LFxuICB7XG4gICBcImtpbmRcIjogXCJjYWxlbmRhciNldmVudFwiLFxuICAgXCJldGFnXCI6IFwiXFxcIjMxODExNTk4NzU1ODQwMDBcXFwiXCIsXG4gICBcImlkXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTVUMTIwMDAwWlwiLFxuICAgXCJzdGF0dXNcIjogXCJjb25maXJtZWRcIixcbiAgIFwiaHRtbExpbmtcIjogXCJodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2VpZD1NM0YwWkRaMWMyTnhOSFJ6YVRabll6ZHViVzEwY0hGc1kzUmZNakF5TURBMk1UVlVNVEl3TURBd1dpQm1kV3hzYzNSaFkydDNaV0prWlhaQVkyRnlaV1Z5Wm05MWJtUnllUzVqYjIwXCIsXG4gICBcImNyZWF0ZWRcIjogXCIyMDIwLTA1LTE5VDE5OjE0OjMwLjAwMFpcIixcbiAgIFwidXBkYXRlZFwiOiBcIjIwMjAtMDUtMjdUMTE6NDU6MzcuNzkyWlwiLFxuICAgXCJzdW1tYXJ5XCI6IFwiUmVhY3QgaXMgRnVuXCIsXG4gICBcImRlc2NyaXB0aW9uXCI6IFwiTG92ZSBIVE1MLCBDU1MsIGFuZCBKUz8gV2FudCB0byBiZWNvbWUgYSBjb29sIGZyb250LWVuZCBkZXZlbG9wZXI/IFxcblxcblJlYWN0IGlzIG9uZSBvZiB0aGUgbW9zdCBwb3B1bGFyIGZyb250LWVuZCBmcmFtZXdvcmtzLiBUaGVyZSBpcyBhIGh1Z2UgbnVtYmVyIG9mIGpvYiBvcGVuaW5ncyBmb3IgUmVhY3QgZGV2ZWxvcGVycyBpbiBtb3N0IGNpdGllcy4gXFxuXFxuSm9pbiB1cyBpbiBvdXIgZnJlZSBSZWFjdCB0cmFpbmluZyBzZXNzaW9ucyBhbmQgZ2l2ZSB5b3VyIGNhcmVlciBhIG5ldyBkaXJlY3Rpb24uIFwiLFxuICAgXCJsb2NhdGlvblwiOiBcIkJlcmxpbiwgR2VybWFueVwiLFxuICAgXCJjcmVhdG9yXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcIm9yZ2FuaXplclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJzdGFydFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMTVUMTQ6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJlbmRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTE1VDE1OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwicmVjdXJyaW5nRXZlbnRJZFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0XCIsXG4gICBcIm9yaWdpbmFsU3RhcnRUaW1lXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0xNVQxNDowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImlDYWxVSURcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdEBnb29nbGUuY29tXCIsXG4gICBcInNlcXVlbmNlXCI6IDAsXG4gICBcInJlbWluZGVyc1wiOiB7XG4gICAgXCJ1c2VEZWZhdWx0XCI6IHRydWVcbiAgIH0sXG4gICBcImV2ZW50VHlwZVwiOiBcImRlZmF1bHRcIlxuICB9LFxuICB7XG4gICBcImtpbmRcIjogXCJjYWxlbmRhciNldmVudFwiLFxuICAgXCJldGFnXCI6IFwiXFxcIjMxODExNjE3ODQ3MTIwMDBcXFwiXCIsXG4gICBcImlkXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MTZUMTQwMDAwWlwiLFxuICAgXCJzdGF0dXNcIjogXCJjb25maXJtZWRcIixcbiAgIFwiaHRtbExpbmtcIjogXCJodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2VpZD1OR1ZoYUhNNVoyaHJhSEoyYTJ4a056Sm9iMmQxT1hCb00yVmZNakF5TURBMk1UWlVNVFF3TURBd1dpQm1kV3hzYzNSaFkydDNaV0prWlhaQVkyRnlaV1Z5Wm05MWJtUnllUzVqYjIwXCIsXG4gICBcImNyZWF0ZWRcIjogXCIyMDIwLTA1LTE5VDE5OjE3OjQ2LjAwMFpcIixcbiAgIFwidXBkYXRlZFwiOiBcIjIwMjAtMDUtMjdUMTI6MDE6MzIuMzU2WlwiLFxuICAgXCJzdW1tYXJ5XCI6IFwiTGVhcm4gSmF2YVNjcmlwdFwiLFxuICAgXCJkZXNjcmlwdGlvblwiOiBcIkhhdmUgeW91IHdvbmRlcmVkIGhvdyB5b3UgY2FuIGFzayBHb29nbGUgdG8gc2hvdyB5b3UgdGhlIGxpc3Qgb2YgdGhlIHRvcCB0ZW4gbXVzdC1zZWUgcGxhY2VzIGluIExvbmRvbj8gQW5kIGhvdyBHb29nbGUgcHJlc2VudHMgeW91IHRoZSBsaXN0PyBIb3cgY2FuIHlvdSBzdWJtaXQgdGhlIGRldGFpbHMgb2YgYW4gYXBwbGljYXRpb24/IFdlbGwsIEphdmFTY3JpcHQgaXMgZG9pbmcgdGhlc2UuIDopIFxcblxcbkphdmFzY3JpcHQgb2ZmZXJzIGludGVyYWN0aXZpdHkgdG8gYSBkdWxsLCBzdGF0aWMgd2Vic2l0ZS4gQ29tZSwgbGVhcm4gSmF2YVNjcmlwdCB3aXRoIHVzIGFuZCBtYWtlIHRob3NlIGJlYXV0aWZ1bCB3ZWJzaXRlcy5cIixcbiAgIFwibG9jYXRpb25cIjogXCJMb25kb24sIFVLXCIsXG4gICBcImNyZWF0b3JcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwib3JnYW5pemVyXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcInN0YXJ0XCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0xNlQxNjowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImVuZFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMTZUMTc6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJyZWN1cnJpbmdFdmVudElkXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VcIixcbiAgIFwib3JpZ2luYWxTdGFydFRpbWVcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTE2VDE2OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiaUNhbFVJRFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlQGdvb2dsZS5jb21cIixcbiAgIFwic2VxdWVuY2VcIjogMCxcbiAgIFwicmVtaW5kZXJzXCI6IHtcbiAgICBcInVzZURlZmF1bHRcIjogdHJ1ZVxuICAgfSxcbiAgIFwiZXZlbnRUeXBlXCI6IFwiZGVmYXVsdFwiXG4gIH0sXG4gIHtcbiAgIFwia2luZFwiOiBcImNhbGVuZGFyI2V2ZW50XCIsXG4gICBcImV0YWdcIjogXCJcXFwiMzE4MTE1OTg3NTU4NDAwMFxcXCJcIixcbiAgIFwiaWRcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdF8yMDIwMDYxN1QxMjAwMDBaXCIsXG4gICBcInN0YXR1c1wiOiBcImNvbmZpcm1lZFwiLFxuICAgXCJodG1sTGlua1wiOiBcImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/ZWlkPU0zRjBaRFoxYzJOeE5IUnphVFpuWXpkdWJXMTBjSEZzWTNSZk1qQXlNREEyTVRkVU1USXdNREF3V2lCbWRXeHNjM1JoWTJ0M1pXSmtaWFpBWTJGeVpXVnlabTkxYm1SeWVTNWpiMjBcIixcbiAgIFwiY3JlYXRlZFwiOiBcIjIwMjAtMDUtMTlUMTk6MTQ6MzAuMDAwWlwiLFxuICAgXCJ1cGRhdGVkXCI6IFwiMjAyMC0wNS0yN1QxMTo0NTozNy43OTJaXCIsXG4gICBcInN1bW1hcnlcIjogXCJSZWFjdCBpcyBGdW5cIixcbiAgIFwiZGVzY3JpcHRpb25cIjogXCJMb3ZlIEhUTUwsIENTUywgYW5kIEpTPyBXYW50IHRvIGJlY29tZSBhIGNvb2wgZnJvbnQtZW5kIGRldmVsb3Blcj8gXFxuXFxuUmVhY3QgaXMgb25lIG9mIHRoZSBtb3N0IHBvcHVsYXIgZnJvbnQtZW5kIGZyYW1ld29ya3MuIFRoZXJlIGlzIGEgaHVnZSBudW1iZXIgb2Ygam9iIG9wZW5pbmdzIGZvciBSZWFjdCBkZXZlbG9wZXJzIGluIG1vc3QgY2l0aWVzLiBcXG5cXG5Kb2luIHVzIGluIG91ciBmcmVlIFJlYWN0IHRyYWluaW5nIHNlc3Npb25zIGFuZCBnaXZlIHlvdXIgY2FyZWVyIGEgbmV3IGRpcmVjdGlvbi4gXCIsXG4gICBcImxvY2F0aW9uXCI6IFwiQmVybGluLCBHZXJtYW55XCIsXG4gICBcImNyZWF0b3JcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwib3JnYW5pemVyXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcInN0YXJ0XCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0xN1QxNDowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImVuZFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMTdUMTU6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJyZWN1cnJpbmdFdmVudElkXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RcIixcbiAgIFwib3JpZ2luYWxTdGFydFRpbWVcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTE3VDE0OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiaUNhbFVJRFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0QGdvb2dsZS5jb21cIixcbiAgIFwic2VxdWVuY2VcIjogMCxcbiAgIFwicmVtaW5kZXJzXCI6IHtcbiAgICBcInVzZURlZmF1bHRcIjogdHJ1ZVxuICAgfSxcbiAgIFwiZXZlbnRUeXBlXCI6IFwiZGVmYXVsdFwiXG4gIH0sXG4gIHtcbiAgIFwia2luZFwiOiBcImNhbGVuZGFyI2V2ZW50XCIsXG4gICBcImV0YWdcIjogXCJcXFwiMzE4MTE2MTc4NDcxMjAwMFxcXCJcIixcbiAgIFwiaWRcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZV8yMDIwMDYxOFQxNDAwMDBaXCIsXG4gICBcInN0YXR1c1wiOiBcImNvbmZpcm1lZFwiLFxuICAgXCJodG1sTGlua1wiOiBcImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/ZWlkPU5HVmhhSE01WjJocmFISjJhMnhrTnpKb2IyZDFPWEJvTTJWZk1qQXlNREEyTVRoVU1UUXdNREF3V2lCbWRXeHNjM1JoWTJ0M1pXSmtaWFpBWTJGeVpXVnlabTkxYm1SeWVTNWpiMjBcIixcbiAgIFwiY3JlYXRlZFwiOiBcIjIwMjAtMDUtMTlUMTk6MTc6NDYuMDAwWlwiLFxuICAgXCJ1cGRhdGVkXCI6IFwiMjAyMC0wNS0yN1QxMjowMTozMi4zNTZaXCIsXG4gICBcInN1bW1hcnlcIjogXCJMZWFybiBKYXZhU2NyaXB0XCIsXG4gICBcImRlc2NyaXB0aW9uXCI6IFwiSGF2ZSB5b3Ugd29uZGVyZWQgaG93IHlvdSBjYW4gYXNrIEdvb2dsZSB0byBzaG93IHlvdSB0aGUgbGlzdCBvZiB0aGUgdG9wIHRlbiBtdXN0LXNlZSBwbGFjZXMgaW4gTG9uZG9uPyBBbmQgaG93IEdvb2dsZSBwcmVzZW50cyB5b3UgdGhlIGxpc3Q/IEhvdyBjYW4geW91IHN1Ym1pdCB0aGUgZGV0YWlscyBvZiBhbiBhcHBsaWNhdGlvbj8gV2VsbCwgSmF2YVNjcmlwdCBpcyBkb2luZyB0aGVzZS4gOikgXFxuXFxuSmF2YXNjcmlwdCBvZmZlcnMgaW50ZXJhY3Rpdml0eSB0byBhIGR1bGwsIHN0YXRpYyB3ZWJzaXRlLiBDb21lLCBsZWFybiBKYXZhU2NyaXB0IHdpdGggdXMgYW5kIG1ha2UgdGhvc2UgYmVhdXRpZnVsIHdlYnNpdGVzLlwiLFxuICAgXCJsb2NhdGlvblwiOiBcIkxvbmRvbiwgVUtcIixcbiAgIFwiY3JlYXRvclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJvcmdhbml6ZXJcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwic3RhcnRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTE4VDE2OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiZW5kXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0xOFQxNzowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcInJlY3VycmluZ0V2ZW50SWRcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZVwiLFxuICAgXCJvcmlnaW5hbFN0YXJ0VGltZVwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMThUMTY6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJpQ2FsVUlEXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VAZ29vZ2xlLmNvbVwiLFxuICAgXCJzZXF1ZW5jZVwiOiAwLFxuICAgXCJyZW1pbmRlcnNcIjoge1xuICAgIFwidXNlRGVmYXVsdFwiOiB0cnVlXG4gICB9LFxuICAgXCJldmVudFR5cGVcIjogXCJkZWZhdWx0XCJcbiAgfSxcbiAge1xuICAgXCJraW5kXCI6IFwiY2FsZW5kYXIjZXZlbnRcIixcbiAgIFwiZXRhZ1wiOiBcIlxcXCIzMTgxMTU5ODc1NTg0MDAwXFxcIlwiLFxuICAgXCJpZFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0XzIwMjAwNjE5VDEyMDAwMFpcIixcbiAgIFwic3RhdHVzXCI6IFwiY29uZmlybWVkXCIsXG4gICBcImh0bWxMaW5rXCI6IFwiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci9ldmVudD9laWQ9TTNGMFpEWjFjMk54TkhSemFUWm5ZemR1YlcxMGNIRnNZM1JmTWpBeU1EQTJNVGxVTVRJd01EQXdXaUJtZFd4c2MzUmhZMnQzWldKa1pYWkFZMkZ5WldWeVptOTFibVJ5ZVM1amIyMFwiLFxuICAgXCJjcmVhdGVkXCI6IFwiMjAyMC0wNS0xOVQxOToxNDozMC4wMDBaXCIsXG4gICBcInVwZGF0ZWRcIjogXCIyMDIwLTA1LTI3VDExOjQ1OjM3Ljc5MlpcIixcbiAgIFwic3VtbWFyeVwiOiBcIlJlYWN0IGlzIEZ1blwiLFxuICAgXCJkZXNjcmlwdGlvblwiOiBcIkxvdmUgSFRNTCwgQ1NTLCBhbmQgSlM/IFdhbnQgdG8gYmVjb21lIGEgY29vbCBmcm9udC1lbmQgZGV2ZWxvcGVyPyBcXG5cXG5SZWFjdCBpcyBvbmUgb2YgdGhlIG1vc3QgcG9wdWxhciBmcm9udC1lbmQgZnJhbWV3b3Jrcy4gVGhlcmUgaXMgYSBodWdlIG51bWJlciBvZiBqb2Igb3BlbmluZ3MgZm9yIFJlYWN0IGRldmVsb3BlcnMgaW4gbW9zdCBjaXRpZXMuIFxcblxcbkpvaW4gdXMgaW4gb3VyIGZyZWUgUmVhY3QgdHJhaW5pbmcgc2Vzc2lvbnMgYW5kIGdpdmUgeW91ciBjYXJlZXIgYSBuZXcgZGlyZWN0aW9uLiBcIixcbiAgIFwibG9jYXRpb25cIjogXCJCZXJsaW4sIEdlcm1hbnlcIixcbiAgIFwiY3JlYXRvclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJvcmdhbml6ZXJcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwic3RhcnRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTE5VDE0OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiZW5kXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0xOVQxNTowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcInJlY3VycmluZ0V2ZW50SWRcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdFwiLFxuICAgXCJvcmlnaW5hbFN0YXJ0VGltZVwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMTlUMTQ6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJpQ2FsVUlEXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RAZ29vZ2xlLmNvbVwiLFxuICAgXCJzZXF1ZW5jZVwiOiAwLFxuICAgXCJyZW1pbmRlcnNcIjoge1xuICAgIFwidXNlRGVmYXVsdFwiOiB0cnVlXG4gICB9LFxuICAgXCJldmVudFR5cGVcIjogXCJkZWZhdWx0XCJcbiAgfSxcbiAge1xuICAgXCJraW5kXCI6IFwiY2FsZW5kYXIjZXZlbnRcIixcbiAgIFwiZXRhZ1wiOiBcIlxcXCIzMTgxMTYxNzg0NzEyMDAwXFxcIlwiLFxuICAgXCJpZFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlXzIwMjAwNjIwVDE0MDAwMFpcIixcbiAgIFwic3RhdHVzXCI6IFwiY29uZmlybWVkXCIsXG4gICBcImh0bWxMaW5rXCI6IFwiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci9ldmVudD9laWQ9TkdWaGFITTVaMmhyYUhKMmEyeGtOekpvYjJkMU9YQm9NMlZmTWpBeU1EQTJNakJVTVRRd01EQXdXaUJtZFd4c2MzUmhZMnQzWldKa1pYWkFZMkZ5WldWeVptOTFibVJ5ZVM1amIyMFwiLFxuICAgXCJjcmVhdGVkXCI6IFwiMjAyMC0wNS0xOVQxOToxNzo0Ni4wMDBaXCIsXG4gICBcInVwZGF0ZWRcIjogXCIyMDIwLTA1LTI3VDEyOjAxOjMyLjM1NlpcIixcbiAgIFwic3VtbWFyeVwiOiBcIkxlYXJuIEphdmFTY3JpcHRcIixcbiAgIFwiZGVzY3JpcHRpb25cIjogXCJIYXZlIHlvdSB3b25kZXJlZCBob3cgeW91IGNhbiBhc2sgR29vZ2xlIHRvIHNob3cgeW91IHRoZSBsaXN0IG9mIHRoZSB0b3AgdGVuIG11c3Qtc2VlIHBsYWNlcyBpbiBMb25kb24/IEFuZCBob3cgR29vZ2xlIHByZXNlbnRzIHlvdSB0aGUgbGlzdD8gSG93IGNhbiB5b3Ugc3VibWl0IHRoZSBkZXRhaWxzIG9mIGFuIGFwcGxpY2F0aW9uPyBXZWxsLCBKYXZhU2NyaXB0IGlzIGRvaW5nIHRoZXNlLiA6KSBcXG5cXG5KYXZhc2NyaXB0IG9mZmVycyBpbnRlcmFjdGl2aXR5IHRvIGEgZHVsbCwgc3RhdGljIHdlYnNpdGUuIENvbWUsIGxlYXJuIEphdmFTY3JpcHQgd2l0aCB1cyBhbmQgbWFrZSB0aG9zZSBiZWF1dGlmdWwgd2Vic2l0ZXMuXCIsXG4gICBcImxvY2F0aW9uXCI6IFwiTG9uZG9uLCBVS1wiLFxuICAgXCJjcmVhdG9yXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcIm9yZ2FuaXplclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJzdGFydFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMjBUMTY6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJlbmRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTIwVDE3OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwicmVjdXJyaW5nRXZlbnRJZFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlXCIsXG4gICBcIm9yaWdpbmFsU3RhcnRUaW1lXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0yMFQxNjowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImlDYWxVSURcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZUBnb29nbGUuY29tXCIsXG4gICBcInNlcXVlbmNlXCI6IDAsXG4gICBcInJlbWluZGVyc1wiOiB7XG4gICAgXCJ1c2VEZWZhdWx0XCI6IHRydWVcbiAgIH0sXG4gICBcImV2ZW50VHlwZVwiOiBcImRlZmF1bHRcIlxuICB9LFxuICB7XG4gICBcImtpbmRcIjogXCJjYWxlbmRhciNldmVudFwiLFxuICAgXCJldGFnXCI6IFwiXFxcIjMxODExNTk4NzU1ODQwMDBcXFwiXCIsXG4gICBcImlkXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MjJUMTIwMDAwWlwiLFxuICAgXCJzdGF0dXNcIjogXCJjb25maXJtZWRcIixcbiAgIFwiaHRtbExpbmtcIjogXCJodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2VpZD1NM0YwWkRaMWMyTnhOSFJ6YVRabll6ZHViVzEwY0hGc1kzUmZNakF5TURBMk1qSlVNVEl3TURBd1dpQm1kV3hzYzNSaFkydDNaV0prWlhaQVkyRnlaV1Z5Wm05MWJtUnllUzVqYjIwXCIsXG4gICBcImNyZWF0ZWRcIjogXCIyMDIwLTA1LTE5VDE5OjE0OjMwLjAwMFpcIixcbiAgIFwidXBkYXRlZFwiOiBcIjIwMjAtMDUtMjdUMTE6NDU6MzcuNzkyWlwiLFxuICAgXCJzdW1tYXJ5XCI6IFwiUmVhY3QgaXMgRnVuXCIsXG4gICBcImRlc2NyaXB0aW9uXCI6IFwiTG92ZSBIVE1MLCBDU1MsIGFuZCBKUz8gV2FudCB0byBiZWNvbWUgYSBjb29sIGZyb250LWVuZCBkZXZlbG9wZXI/IFxcblxcblJlYWN0IGlzIG9uZSBvZiB0aGUgbW9zdCBwb3B1bGFyIGZyb250LWVuZCBmcmFtZXdvcmtzLiBUaGVyZSBpcyBhIGh1Z2UgbnVtYmVyIG9mIGpvYiBvcGVuaW5ncyBmb3IgUmVhY3QgZGV2ZWxvcGVycyBpbiBtb3N0IGNpdGllcy4gXFxuXFxuSm9pbiB1cyBpbiBvdXIgZnJlZSBSZWFjdCB0cmFpbmluZyBzZXNzaW9ucyBhbmQgZ2l2ZSB5b3VyIGNhcmVlciBhIG5ldyBkaXJlY3Rpb24uIFwiLFxuICAgXCJsb2NhdGlvblwiOiBcIkJlcmxpbiwgR2VybWFueVwiLFxuICAgXCJjcmVhdG9yXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcIm9yZ2FuaXplclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJzdGFydFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMjJUMTQ6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJlbmRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTIyVDE1OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwicmVjdXJyaW5nRXZlbnRJZFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0XCIsXG4gICBcIm9yaWdpbmFsU3RhcnRUaW1lXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0yMlQxNDowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImlDYWxVSURcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdEBnb29nbGUuY29tXCIsXG4gICBcInNlcXVlbmNlXCI6IDAsXG4gICBcInJlbWluZGVyc1wiOiB7XG4gICAgXCJ1c2VEZWZhdWx0XCI6IHRydWVcbiAgIH0sXG4gICBcImV2ZW50VHlwZVwiOiBcImRlZmF1bHRcIlxuICB9LFxuICB7XG4gICBcImtpbmRcIjogXCJjYWxlbmRhciNldmVudFwiLFxuICAgXCJldGFnXCI6IFwiXFxcIjMxODExNjE3ODQ3MTIwMDBcXFwiXCIsXG4gICBcImlkXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MjNUMTQwMDAwWlwiLFxuICAgXCJzdGF0dXNcIjogXCJjb25maXJtZWRcIixcbiAgIFwiaHRtbExpbmtcIjogXCJodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2VpZD1OR1ZoYUhNNVoyaHJhSEoyYTJ4a056Sm9iMmQxT1hCb00yVmZNakF5TURBMk1qTlVNVFF3TURBd1dpQm1kV3hzYzNSaFkydDNaV0prWlhaQVkyRnlaV1Z5Wm05MWJtUnllUzVqYjIwXCIsXG4gICBcImNyZWF0ZWRcIjogXCIyMDIwLTA1LTE5VDE5OjE3OjQ2LjAwMFpcIixcbiAgIFwidXBkYXRlZFwiOiBcIjIwMjAtMDUtMjdUMTI6MDE6MzIuMzU2WlwiLFxuICAgXCJzdW1tYXJ5XCI6IFwiTGVhcm4gSmF2YVNjcmlwdFwiLFxuICAgXCJkZXNjcmlwdGlvblwiOiBcIkhhdmUgeW91IHdvbmRlcmVkIGhvdyB5b3UgY2FuIGFzayBHb29nbGUgdG8gc2hvdyB5b3UgdGhlIGxpc3Qgb2YgdGhlIHRvcCB0ZW4gbXVzdC1zZWUgcGxhY2VzIGluIExvbmRvbj8gQW5kIGhvdyBHb29nbGUgcHJlc2VudHMgeW91IHRoZSBsaXN0PyBIb3cgY2FuIHlvdSBzdWJtaXQgdGhlIGRldGFpbHMgb2YgYW4gYXBwbGljYXRpb24/IFdlbGwsIEphdmFTY3JpcHQgaXMgZG9pbmcgdGhlc2UuIDopIFxcblxcbkphdmFzY3JpcHQgb2ZmZXJzIGludGVyYWN0aXZpdHkgdG8gYSBkdWxsLCBzdGF0aWMgd2Vic2l0ZS4gQ29tZSwgbGVhcm4gSmF2YVNjcmlwdCB3aXRoIHVzIGFuZCBtYWtlIHRob3NlIGJlYXV0aWZ1bCB3ZWJzaXRlcy5cIixcbiAgIFwibG9jYXRpb25cIjogXCJMb25kb24sIFVLXCIsXG4gICBcImNyZWF0b3JcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwib3JnYW5pemVyXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcInN0YXJ0XCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0yM1QxNjowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImVuZFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMjNUMTc6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJyZWN1cnJpbmdFdmVudElkXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VcIixcbiAgIFwib3JpZ2luYWxTdGFydFRpbWVcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTIzVDE2OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiaUNhbFVJRFwiOiBcIjRlYWhzOWdoa2hydmtsZDcyaG9ndTlwaDNlQGdvb2dsZS5jb21cIixcbiAgIFwic2VxdWVuY2VcIjogMCxcbiAgIFwicmVtaW5kZXJzXCI6IHtcbiAgICBcInVzZURlZmF1bHRcIjogdHJ1ZVxuICAgfSxcbiAgIFwiZXZlbnRUeXBlXCI6IFwiZGVmYXVsdFwiXG4gIH0sXG4gIHtcbiAgIFwia2luZFwiOiBcImNhbGVuZGFyI2V2ZW50XCIsXG4gICBcImV0YWdcIjogXCJcXFwiMzE4MTE1OTg3NTU4NDAwMFxcXCJcIixcbiAgIFwiaWRcIjogXCIzcXRkNnVzY3E0dHNpNmdjN25tbXRwcWxjdF8yMDIwMDYyNFQxMjAwMDBaXCIsXG4gICBcInN0YXR1c1wiOiBcImNvbmZpcm1lZFwiLFxuICAgXCJodG1sTGlua1wiOiBcImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/ZWlkPU0zRjBaRFoxYzJOeE5IUnphVFpuWXpkdWJXMTBjSEZzWTNSZk1qQXlNREEyTWpSVU1USXdNREF3V2lCbWRXeHNjM1JoWTJ0M1pXSmtaWFpBWTJGeVpXVnlabTkxYm1SeWVTNWpiMjBcIixcbiAgIFwiY3JlYXRlZFwiOiBcIjIwMjAtMDUtMTlUMTk6MTQ6MzAuMDAwWlwiLFxuICAgXCJ1cGRhdGVkXCI6IFwiMjAyMC0wNS0yN1QxMTo0NTozNy43OTJaXCIsXG4gICBcInN1bW1hcnlcIjogXCJSZWFjdCBpcyBGdW5cIixcbiAgIFwiZGVzY3JpcHRpb25cIjogXCJMb3ZlIEhUTUwsIENTUywgYW5kIEpTPyBXYW50IHRvIGJlY29tZSBhIGNvb2wgZnJvbnQtZW5kIGRldmVsb3Blcj8gXFxuXFxuUmVhY3QgaXMgb25lIG9mIHRoZSBtb3N0IHBvcHVsYXIgZnJvbnQtZW5kIGZyYW1ld29ya3MuIFRoZXJlIGlzIGEgaHVnZSBudW1iZXIgb2Ygam9iIG9wZW5pbmdzIGZvciBSZWFjdCBkZXZlbG9wZXJzIGluIG1vc3QgY2l0aWVzLiBcXG5cXG5Kb2luIHVzIGluIG91ciBmcmVlIFJlYWN0IHRyYWluaW5nIHNlc3Npb25zIGFuZCBnaXZlIHlvdXIgY2FyZWVyIGEgbmV3IGRpcmVjdGlvbi4gXCIsXG4gICBcImxvY2F0aW9uXCI6IFwiQmVybGluLCBHZXJtYW55XCIsXG4gICBcImNyZWF0b3JcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwib3JnYW5pemVyXCI6IHtcbiAgICBcImVtYWlsXCI6IFwiZnVsbHN0YWNrd2ViZGV2QGNhcmVlcmZvdW5kcnkuY29tXCIsXG4gICAgXCJzZWxmXCI6IHRydWVcbiAgIH0sXG4gICBcInN0YXJ0XCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0yNFQxNDowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcImVuZFwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMjRUMTU6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJyZWN1cnJpbmdFdmVudElkXCI6IFwiM3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RcIixcbiAgIFwib3JpZ2luYWxTdGFydFRpbWVcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTI0VDE0OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiaUNhbFVJRFwiOiBcIjNxdGQ2dXNjcTR0c2k2Z2M3bm1tdHBxbGN0QGdvb2dsZS5jb21cIixcbiAgIFwic2VxdWVuY2VcIjogMCxcbiAgIFwicmVtaW5kZXJzXCI6IHtcbiAgICBcInVzZURlZmF1bHRcIjogdHJ1ZVxuICAgfSxcbiAgIFwiZXZlbnRUeXBlXCI6IFwiZGVmYXVsdFwiXG4gIH0sXG4gIHtcbiAgIFwia2luZFwiOiBcImNhbGVuZGFyI2V2ZW50XCIsXG4gICBcImV0YWdcIjogXCJcXFwiMzE4MTE2MTc4NDcxMjAwMFxcXCJcIixcbiAgIFwiaWRcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZV8yMDIwMDYyNVQxNDAwMDBaXCIsXG4gICBcInN0YXR1c1wiOiBcImNvbmZpcm1lZFwiLFxuICAgXCJodG1sTGlua1wiOiBcImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvZXZlbnQ/ZWlkPU5HVmhhSE01WjJocmFISjJhMnhrTnpKb2IyZDFPWEJvTTJWZk1qQXlNREEyTWpWVU1UUXdNREF3V2lCbWRXeHNjM1JoWTJ0M1pXSmtaWFpBWTJGeVpXVnlabTkxYm1SeWVTNWpiMjBcIixcbiAgIFwiY3JlYXRlZFwiOiBcIjIwMjAtMDUtMTlUMTk6MTc6NDYuMDAwWlwiLFxuICAgXCJ1cGRhdGVkXCI6IFwiMjAyMC0wNS0yN1QxMjowMTozMi4zNTZaXCIsXG4gICBcInN1bW1hcnlcIjogXCJMZWFybiBKYXZhU2NyaXB0XCIsXG4gICBcImRlc2NyaXB0aW9uXCI6IFwiSGF2ZSB5b3Ugd29uZGVyZWQgaG93IHlvdSBjYW4gYXNrIEdvb2dsZSB0byBzaG93IHlvdSB0aGUgbGlzdCBvZiB0aGUgdG9wIHRlbiBtdXN0LXNlZSBwbGFjZXMgaW4gTG9uZG9uPyBBbmQgaG93IEdvb2dsZSBwcmVzZW50cyB5b3UgdGhlIGxpc3Q/IEhvdyBjYW4geW91IHN1Ym1pdCB0aGUgZGV0YWlscyBvZiBhbiBhcHBsaWNhdGlvbj8gV2VsbCwgSmF2YVNjcmlwdCBpcyBkb2luZyB0aGVzZS4gOikgXFxuXFxuSmF2YXNjcmlwdCBvZmZlcnMgaW50ZXJhY3Rpdml0eSB0byBhIGR1bGwsIHN0YXRpYyB3ZWJzaXRlLiBDb21lLCBsZWFybiBKYXZhU2NyaXB0IHdpdGggdXMgYW5kIG1ha2UgdGhvc2UgYmVhdXRpZnVsIHdlYnNpdGVzLlwiLFxuICAgXCJsb2NhdGlvblwiOiBcIkxvbmRvbiwgVUtcIixcbiAgIFwiY3JlYXRvclwiOiB7XG4gICAgXCJlbWFpbFwiOiBcImZ1bGxzdGFja3dlYmRldkBjYXJlZXJmb3VuZHJ5LmNvbVwiLFxuICAgIFwic2VsZlwiOiB0cnVlXG4gICB9LFxuICAgXCJvcmdhbml6ZXJcIjoge1xuICAgIFwiZW1haWxcIjogXCJmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb21cIixcbiAgICBcInNlbGZcIjogdHJ1ZVxuICAgfSxcbiAgIFwic3RhcnRcIjoge1xuICAgIFwiZGF0ZVRpbWVcIjogXCIyMDIwLTA2LTI1VDE2OjAwOjAwKzAyOjAwXCIsXG4gICAgXCJ0aW1lWm9uZVwiOiBcIkV1cm9wZS9CZXJsaW5cIlxuICAgfSxcbiAgIFwiZW5kXCI6IHtcbiAgICBcImRhdGVUaW1lXCI6IFwiMjAyMC0wNi0yNVQxNzowMDowMCswMjowMFwiLFxuICAgIFwidGltZVpvbmVcIjogXCJFdXJvcGUvQmVybGluXCJcbiAgIH0sXG4gICBcInJlY3VycmluZ0V2ZW50SWRcIjogXCI0ZWFoczlnaGtocnZrbGQ3MmhvZ3U5cGgzZVwiLFxuICAgXCJvcmlnaW5hbFN0YXJ0VGltZVwiOiB7XG4gICAgXCJkYXRlVGltZVwiOiBcIjIwMjAtMDYtMjVUMTY6MDA6MDArMDI6MDBcIixcbiAgICBcInRpbWVab25lXCI6IFwiRXVyb3BlL0JlcmxpblwiXG4gICB9LFxuICAgXCJpQ2FsVUlEXCI6IFwiNGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VAZ29vZ2xlLmNvbVwiLFxuICAgXCJzZXF1ZW5jZVwiOiAwLFxuICAgXCJyZW1pbmRlcnNcIjoge1xuICAgIFwidXNlRGVmYXVsdFwiOiB0cnVlXG4gICB9LFxuICAgXCJldmVudFR5cGVcIjogXCJkZWZhdWx0XCJcbiAgfV07XG5cbiAgZXhwb3J0IGRlZmF1bHQgbW9ja0RhdGE7XG4iXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBLElBQU1BLFFBQVEsR0FBRyxDQUNkO0VBQ0EsTUFBTSxFQUFFLGdCQUFnQjtFQUN4QixNQUFNLEVBQUUsc0JBQXNCO0VBQzlCLElBQUksRUFBRSw2Q0FBNkM7RUFDbkQsUUFBUSxFQUFFLFdBQVc7RUFDckIsVUFBVSxFQUFFLG1KQUFtSjtFQUMvSixTQUFTLEVBQUUsMEJBQTBCO0VBQ3JDLFNBQVMsRUFBRSwwQkFBMEI7RUFDckMsU0FBUyxFQUFFLGtCQUFrQjtFQUM3QixhQUFhLEVBQUUsc1dBQXNXO0VBQ3JYLFVBQVUsRUFBRSxZQUFZO0VBQ3hCLFNBQVMsRUFBRTtJQUNWLE9BQU8sRUFBRSxtQ0FBbUM7SUFDNUMsTUFBTSxFQUFFO0VBQ1QsQ0FBQztFQUNELFdBQVcsRUFBRTtJQUNaLE9BQU8sRUFBRSxtQ0FBbUM7SUFDNUMsTUFBTSxFQUFFO0VBQ1QsQ0FBQztFQUNELE9BQU8sRUFBRTtJQUNSLFVBQVUsRUFBRSwyQkFBMkI7SUFDdkMsVUFBVSxFQUFFO0VBQ2IsQ0FBQztFQUNELEtBQUssRUFBRTtJQUNOLFVBQVUsRUFBRSwyQkFBMkI7SUFDdkMsVUFBVSxFQUFFO0VBQ2IsQ0FBQztFQUNELGtCQUFrQixFQUFFLDRCQUE0QjtFQUNoRCxtQkFBbUIsRUFBRTtJQUNwQixVQUFV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

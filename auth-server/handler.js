@@ -60,49 +60,39 @@ module.exports.getAccessToken = async (event) => {
 };
 
 module.exports.getCalendarEvents = async (event) => {
-  const headers = {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Credentials": true,
-  };
+  const access_token = decodeURIComponent(`${event.pathParameters.access_token}`);
+  oAuth2Client.setCredentials({ access_token });
 
-  try {
-    const access_token = event && event.pathParameters && event.pathParameters.access_token
-      ? decodeURIComponent(event.pathParameters.access_token)
-      : null;
-
-    if (!access_token) {
-      return {
-        statusCode: 400,
-        headers,
-        body: JSON.stringify({ error: "Missing access_token path parameter" }),
-      };
-    }
-
-    oAuth2Client.setCredentials({ access_token });
-
-    const response = await calendar.events.list({
-      calendarId: CALENDAR_ID,
-      auth: oAuth2Client,
-      timeMin: new Date().toISOString(),
-      singleEvents: true,
-      orderBy: "startTime",
-      maxResults: 250,
+  return new Promise((resolve, reject) => {
+    calendar.events.list (
+        {
+            calendarId: CALENDAR_ID,
+            auth: oAuth2Client,
+            timeMin: new Date().toISOString(),
+            singleEvents: true,
+            orderBy: "startTime",
+        }, (error, response) => {
+      if (error) {
+        return reject(error);
+      }
+      return resolve(response);
     });
-
-    const events = (response && response.data && response.data.items) ? response.data.items : [];
-
-    return {
-      statusCode: 200,
-      headers,
-      body: JSON.stringify({ events }),
-    };
-  } catch (error) {
-    const statusCode = (error && error.code && Number(error.code)) ? Number(error.code) : 500;
-    return {
-      statusCode,
-      headers,
-      body: JSON.stringify({ error: error.message || error }),
-    };
-  }
+  })
+    .then((results) => {
+      return {
+        statusCode: 200,
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": true,
+        },
+        body: JSON.stringify({ events: results.data.items }),
+      };
+    })
+    .catch((error) => {
+      return {
+        statusCode: 500,
+        body: JSON.stringify(error),
+      };
+    });
 };
 
