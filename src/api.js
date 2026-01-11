@@ -62,8 +62,8 @@ const getToken = async (code) => {
     "https://it47rdid3foq4d5iaodjqm5pxa0htkmg.lambda-url.us-east-2.on.aws" + "/" + encodeCode
   );
 
-  const { accessToken } = await response.json();
-  access_token && localStorage.setItem("accesss_token", access_token);
+  const { access_token } = await response.json();
+  access_token && localStorage.setItem("access_token", access_token);
 
   return access_token
 };
@@ -75,7 +75,7 @@ export const getAccessToken = async () => {
 
   if(!accessToken || tokenCheck.error) {
     await localStorage.removeItem("access_token");
-    const searchParams = newURLSearchParams(window.location.search);
+    const searchParams = new URLSearchParams(window.location.search);
     const code = await searchParams.get("code");
     if (!code) {
       const response = await fetch(
@@ -85,7 +85,8 @@ export const getAccessToken = async () => {
       const { authUrl } = result; 
       return (window.location.href = authUrl);
     }
-    return accessToken;
+    return await getToken(code);
   }
 
+  return accessToken;
 };
