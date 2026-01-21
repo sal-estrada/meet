@@ -19,9 +19,24 @@ const App = () => {
   
   const fetchData = async () => {
     const allEvents = await getEvents();
+    console.log("All events received:", allEvents);
+    console.log("Number of events:", allEvents?.length);
+    
+    if (!allEvents || allEvents.length === 0) {
+      console.log("No events returned from getEvents()");
+      setEvents([]);
+      setAllLocations([]);
+      return;
+    }
+    
     const filteredEvents = currentCity === "See all cities" ? 
       allEvents :
-      allEvents.filter(event => event.location === currentCity)
+      allEvents.filter(event => event.location === currentCity);
+    
+    console.log("Filtered events:", filteredEvents);
+    console.log("Current city:", currentCity);
+    console.log("Current NOE:", currentNOE);
+    
     setEvents(filteredEvents.slice(0, currentNOE));
     setAllLocations(extractLocations(allEvents));
   }

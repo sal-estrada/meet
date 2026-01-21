@@ -29,6 +29,11 @@ export const getEvents = async () => {
   }
 
   const token = await getAccessToken();
+  
+  if (!token) {
+    console.error("No access token available");
+    return [];
+  }
 
   const removeQuery = () => {
     let newurl;
@@ -48,12 +53,26 @@ export const getEvents = async () => {
   if (token) {
     removeQuery();
     const url =  "https://vvb2v773edboswkv55jaymszwq0kaesh.lambda-url.us-east-2.on.aws" + "/" + token;
-    const response = await fetch(url);
-    const result = await response.json();
-    if (result) {
-      return result.events;
-    } else return null;
+    console.log("Fetching events from:", url);
+    try {
+      const response = await fetch(url);
+      console.log("Response status:", response.status);
+      const result = await response.json();
+      console.log("API Response:", result);
+      if (result && result.events) {
+        console.log("Number of events from API:", result.events.length);
+        return result.events;
+      } else {
+        console.error("No events in response:", result);
+        return [];
+      }
+    } catch (error) {
+      console.error("Error fetching events:", error);
+      return [];
+    }
   }
+  
+  return [];
 };
 
 const getToken = async (code) => {
