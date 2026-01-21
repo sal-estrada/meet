@@ -2,10 +2,12 @@
 .App {
   text-align: center;
   padding: 2% 5%;
+
 }
 
 .App * {
   box-sizing: border-box;
+  
 }
 
 ul {

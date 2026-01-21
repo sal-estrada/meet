@@ -37,3 +37,6 @@ const App = () => {
 }
 
 export default App;
+
+
+// Make sure to check connections between the different components, works locally but not on launch.
