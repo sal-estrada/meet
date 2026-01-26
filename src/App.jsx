@@ -22,7 +22,7 @@ const App = () => {
     } else {
       "You are currently offline. Data may not be accurate."
     }
-    
+
     fetchData();
   }, [currentCity, currentNOE]);
 
@@ -66,6 +66,7 @@ const App = () => {
       <NumberOfEvents
         onNumberChange={setCurrentNOE}
         setErrorAlert={setErrorAlert}
+        setWarningAlert={setWarningAlert}
       />
       <EventList events={events} />
     </div>
