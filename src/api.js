@@ -1,5 +1,4 @@
-import mockData from './mock-data';
-
+import mockData from "./mock-data";
 
 /**
  *
@@ -17,19 +16,19 @@ export const extractLocations = (events) => {
 
 const checkToken = async (accessToken) => {
   const response = await fetch(
-    `https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=${accessToken}`
+    `https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=${accessToken}`,
   );
   const result = await response.json();
   return result;
 };
 
 export const getEvents = async () => {
-  if (window.location.href.startsWith('http://localhost')) {
+  if (window.location.href.startsWith("http://localhost")) {
     return mockData;
   }
 
   const token = await getAccessToken();
-  
+
   if (!token) {
     console.error("No access token available");
     return [];
@@ -38,9 +37,9 @@ export const getEvents = async () => {
   const removeQuery = () => {
     let newurl;
     if (window.history.pushState && window.location.pathname) {
-      newurl = 
+      newurl =
         window.location.protocol +
-        "//" + 
+        "//" +
         window.location.host +
         window.location.pathname;
       window.history.pushState("", "", newurl);
@@ -52,33 +51,35 @@ export const getEvents = async () => {
 
   if (token) {
     removeQuery();
-    const url = "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/get-events/" + token;
-    console.log("Fetching events from:", url);
+    const url =
+      "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/get-events/" +
+      token;
+
     try {
       const response = await fetch(url);
-      console.log("Response status:", response.status);
       const result = await response.json();
-      console.log("API Response:", result);
-      if (result && result.events) {
-        console.log("Number of events from API:", result.events.length);
+
+      if (result) {
+        NProgress.done();
+        localStorage.setItem("lastEvents", JSON.stringify(result.events));
         return result.events;
       } else {
-        console.error("No events in response:", result);
-        return [];
+        return null;
       }
     } catch (error) {
       console.error("Error fetching events:", error);
       return [];
     }
   }
-  
+
   return [];
 };
 
 const getToken = async (code) => {
   const encodeCode = encodeURIComponent(code);
   const response = await fetch(
-    "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/token/" + encodeCode
+    "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/token/" +
+      encodeCode,
   );
 
   const { access_token } = await response.json();
@@ -88,20 +89,20 @@ const getToken = async (code) => {
 };
 
 export const getAccessToken = async () => {
-  const accessToken = localStorage.getItem('access_token');
+  const accessToken = localStorage.getItem("access_token");
 
   const tokenCheck = accessToken && (await checkToken(accessToken));
 
-  if(!accessToken || tokenCheck.error) {
+  if (!accessToken || tokenCheck.error) {
     await localStorage.removeItem("access_token");
     const searchParams = new URLSearchParams(window.location.search);
     const code = await searchParams.get("code");
     if (!code) {
       const response = await fetch(
-        "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/get-auth-url"
+        "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/get-auth-url",
       );
       const result = await response.json();
-      const { authUrl } = result; 
+      const { authUrl } = result;
       window.location.href = authUrl;
       return;
     }
