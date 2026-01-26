@@ -18,9 +18,9 @@ const App = () => {
 
   useEffect(() => {
     if (navigator.onLine) {
-      ""
+      setWarningAlert("")
     } else {
-      "You are currently offline. Data may not be accurate."
+      setWarningAlert("You are currently offline. Data may not be accurate.")
     }
 
     fetchData();
