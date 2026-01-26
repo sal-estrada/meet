@@ -3,7 +3,8 @@ import CitySearch from "./components/CitySearch";
 import EventList from "./components/EventList";
 import NumberOfEvents from "./components/NumberOfEvents";
 import { extractLocations, getEvents } from "./api";
-import { InfoAlert, ErrorAlert } from "./components/Alert";
+import InfoAlert from "./components/Alert";
+import ErrorAlert from "./components/Alert";
 
 import './App.css'
 
