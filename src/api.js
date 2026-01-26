@@ -1,4 +1,6 @@
 import mockData from "./mock-data";
+import nProgress from "nprogress";
+import "nprogress/nprogress.css"
 
 /**
  *
@@ -29,7 +31,7 @@ export const getEvents = async () => {
 
   if (!navigator.onLine) {
    const events = localStorage.getItem("lastEvents");
-   NProgress.done();
+   nProgress.done();
    return events?JSON.parse(events):[];
  }
 
@@ -66,7 +68,7 @@ export const getEvents = async () => {
       const result = await response.json();
 
       if (result) {
-        NProgress.done();
+        nProgress.done();
         localStorage.setItem("lastEvents", JSON.stringify(result.events));
         return result.events;
       } else {
