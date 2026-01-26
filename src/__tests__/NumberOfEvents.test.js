@@ -8,19 +8,19 @@ import NumberOfEvents from '../components/NumberOfEvents';
 describe('<NumberOfEvents /> component', () => {
     
     test('contains a numeric input (spinbutton)', () => {
-        render(<NumberOfEvents />);
+        render(<NumberOfEvents setErrorAlert={() => { }}/>);
         const input = screen.getByRole('spinbutton');
         expect(input).toBeInTheDocument();
     });
 
     test('default value of textbox is 32', () => {
-        render(<NumberOfEvents />);
+        render(<NumberOfEvents setErrorAlert={() => { }}/>);
         const input = screen.getByRole('spinbutton');
         expect(input.value).toBe('32');
     });
 
     test('textbox value changes when user types', async () => {
-        render(<NumberOfEvents />);
+        render(<NumberOfEvents setErrorAlert={() => { }}/>);
         const input = screen.getByRole('spinbutton');
         const user = userEvent.setup();
 
@@ -30,4 +30,5 @@ describe('<NumberOfEvents /> component', () => {
 
         expect(input.value).toBe('10');
     });
+
 });
