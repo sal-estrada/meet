@@ -11,14 +11,11 @@ const NumberOfEvents = ({ onNumberChange, setErrorAlert }) => {
     if (onNumberChange) onNumberChange(value);
 
     let errorText;
-    if (value.length <= 0) {
+    if (value <= 0) {
       errorText = "Please, input a number greater than 0."
     } else {errorText = ""}
     setErrorAlert(errorText);
   };
-  
-
-
 
   return (
     <div id="number-of-events">
