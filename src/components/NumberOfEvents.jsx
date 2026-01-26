@@ -1,7 +1,7 @@
 // src/components/NumberOfEvents.jsx
 import React, { useState } from "react";
 
-const NumberOfEvents = ({ onNumberChange }) => {
+const NumberOfEvents = ({ onNumberChange, setErrorAlert }) => {
   // Default number of events
   const [numEvents, setNumEvents] = useState(32);
 
@@ -9,7 +9,16 @@ const NumberOfEvents = ({ onNumberChange }) => {
     const value = Number(e.target.value);
     setNumEvents(value);
     if (onNumberChange) onNumberChange(value);
+
+    let errorText;
+    if (value.length <= 0) {
+      errorText = "Please, input a number greater than 0."
+    } else {errorText = ""}
+    setErrorAlert(errorText);
   };
+  
+
+
 
   return (
     <div id="number-of-events">
