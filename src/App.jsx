@@ -17,13 +17,25 @@ const App = () => {
   const [warningAlert, setWarningAlert] = useState("");
 
   useEffect(() => {
-    if (!navigator.onLine) {
-      setWarningAlert("You are currently offline. Data may not be accurate.");
-    } else {
-      setWarningAlert("");
-    }
+    const updateOnlineStatus = () => {
+      if (!navigator.onLine) {
+        setWarningAlert("You are currently offline. Data may not be accurate.");
+      } else {
+        setWarningAlert("");
+      }
+    };
+
+    updateOnlineStatus();
+
+    window.addEventListener("online", updateOnlineStatus);
+    window.addEventListener("offline", updateOnlineStatus);
 
     fetchData();
+
+    return () => {
+      window.removeEventListener("online", updateOnlineStatus);
+      window.removeEventListener("offline", updateOnlineStatus);
+    };
   }, [currentCity, currentNOE]);
 
   const fetchData = async () => {
