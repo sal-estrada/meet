@@ -1,5 +1,4 @@
-import mockData from './mock-data';
-
+import mockData from "./mock-data";
 
 /**
  *
@@ -17,55 +16,28 @@ export const extractLocations = (events) => {
 
 const checkToken = async (accessToken) => {
   const response = await fetch(
-    `https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=${accessToken}`
+    `https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=${accessToken}`,
   );
   const result = await response.json();
   return result;
 };
 
 export const getEvents = async () => {
-  // 1. Local development shortcut
   if (window.location.href.startsWith("http://localhost")) {
     return mockData;
   }
-
-  // 2. Try cached events first
-  const cachedEvents = localStorage.getItem("lastEvents");
-  if (cachedEvents) {
-    return JSON.parse(cachedEvents);
-  }
-
-  // 3. Authentication
   const token = await getAccessToken();
   if (!token) {
     console.error("No access token available");
     return [];
   }
 
-  // 4. Build request
-  const url = `${CALENDAR_API_URL}?access_token=${token}`;
-
-  // 5. Fetch events
-  const response = await fetch(url);
-  const result = await response.json();
-
-  // 6. Handle response
-  if (result && result.events) {
-    NProgress.done();
-    localStorage.setItem("lastEvents", JSON.stringify(result.events));
-    return result.events;
-  }
-
-  return [];
-};
-
-
   const removeQuery = () => {
     let newurl;
     if (window.history.pushState && window.location.pathname) {
-      newurl = 
+      newurl =
         window.location.protocol +
-        "//" + 
+        "//" +
         window.location.host +
         window.location.pathname;
       window.history.pushState("", "", newurl);
@@ -77,7 +49,9 @@ export const getEvents = async () => {
 
   if (token) {
     removeQuery();
-    const url = "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/get-events/" + token;
+    const url =
+      "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/get-events/" +
+      token;
     console.log("Fetching events from:", url);
     try {
       const response = await fetch(url);
@@ -96,14 +70,15 @@ export const getEvents = async () => {
       return [];
     }
   }
-  
+
   return [];
 };
 
 const getToken = async (code) => {
   const encodeCode = encodeURIComponent(code);
   const response = await fetch(
-    "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/token/" + encodeCode
+    "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/token/" +
+      encodeCode,
   );
 
   const { access_token } = await response.json();
@@ -113,20 +88,20 @@ const getToken = async (code) => {
 };
 
 export const getAccessToken = async () => {
-  const accessToken = localStorage.getItem('access_token');
+  const accessToken = localStorage.getItem("access_token");
 
   const tokenCheck = accessToken && (await checkToken(accessToken));
 
-  if(!accessToken || tokenCheck.error) {
+  if (!accessToken || tokenCheck.error) {
     await localStorage.removeItem("access_token");
     const searchParams = new URLSearchParams(window.location.search);
     const code = await searchParams.get("code");
     if (!code) {
       const response = await fetch(
-        "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/get-auth-url"
+        "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/get-auth-url",
       );
       const result = await response.json();
-      const { authUrl } = result; 
+      const { authUrl } = result;
       window.location.href = authUrl;
       return;
     }
