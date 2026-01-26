@@ -1,5 +1,5 @@
 import mockData from "./mock-data";
-import nProgress from "nprogress";
+import NProgress from "nprogress";
 import "nprogress/nprogress.css"
 
 /**
@@ -25,22 +25,36 @@ const checkToken = async (accessToken) => {
 };
 
 export const getEvents = async () => {
+  // 1️⃣ Offline → cache
+  if (!navigator.onLine) {
+    const events = localStorage.getItem("lastEvents");
+    return events ? JSON.parse(events) : [];
+  }
+
+  // 2️⃣ Local dev → mock data
   if (window.location.href.startsWith("http://localhost")) {
     return mockData;
   }
 
-  if (!navigator.onLine) {
-   const events = localStorage.getItem("lastEvents");
-   nProgress.done();
-   return events?JSON.parse(events):[];
- }
-
+  // 3️⃣ Auth
   const token = await getAccessToken();
+  if (!token) return [];
 
-  if (!token) {
-    console.error("No access token available");
-    return [];
+  const url =
+    "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/get-events/" +
+    token;
+
+  const response = await fetch(url);
+  const result = await response.json();
+
+  if (result?.events) {
+    localStorage.setItem("lastEvents", JSON.stringify(result.events));
+    return result.events;
   }
+
+  return [];
+};
+
 
   const removeQuery = () => {
     let newurl;
@@ -68,7 +82,7 @@ export const getEvents = async () => {
       const result = await response.json();
 
       if (result) {
-        nProgress.done();
+        NProgress.done();
         localStorage.setItem("lastEvents", JSON.stringify(result.events));
         return result.events;
       } else {

@@ -11,7 +11,7 @@ const NumberOfEvents = ({ onNumberChange, setErrorAlert }) => {
     if (onNumberChange) onNumberChange(value);
 
     let errorText;
-    if (value <= 0 || isNaN()) {
+    if (value <= 0) {
       errorText = "Please, input a number greater than 0."
     } else {errorText = ""}
     setErrorAlert(errorText);

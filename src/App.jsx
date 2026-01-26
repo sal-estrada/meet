@@ -4,8 +4,6 @@ import EventList from "./components/EventList";
 import NumberOfEvents from "./components/NumberOfEvents";
 import { extractLocations, getEvents } from "./api";
 import { InfoAlert, ErrorAlert, WarningAlert } from "./components/Alert";
-import nProgress from "nprogress";
-import "nprogress/nprogress.css"
 
 import "./App.css";
 
@@ -19,10 +17,10 @@ const App = () => {
   const [warningAlert, setWarningAlert] = useState("");
 
   useEffect(() => {
-    if (navigator.onLine) {
-      setWarningAlert("")
+    if (!navigator.onLine) {
+      setWarningAlert("You are currently offline. Data may not be accurate.");
     } else {
-      setWarningAlert("You are currently offline. Data may not be accurate.")
+      setWarningAlert("");
     }
 
     fetchData();
