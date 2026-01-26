@@ -24,16 +24,41 @@ const checkToken = async (accessToken) => {
 };
 
 export const getEvents = async () => {
-  if (window.location.href.startsWith('http://localhost')) {
+  // 1. Local development shortcut
+  if (window.location.href.startsWith("http://localhost")) {
     return mockData;
   }
 
+  // 2. Try cached events first
+  const cachedEvents = localStorage.getItem("lastEvents");
+  if (cachedEvents) {
+    return JSON.parse(cachedEvents);
+  }
+
+  // 3. Authentication
   const token = await getAccessToken();
-  
   if (!token) {
     console.error("No access token available");
     return [];
   }
+
+  // 4. Build request
+  const url = `${CALENDAR_API_URL}?access_token=${token}`;
+
+  // 5. Fetch events
+  const response = await fetch(url);
+  const result = await response.json();
+
+  // 6. Handle response
+  if (result && result.events) {
+    NProgress.done();
+    localStorage.setItem("lastEvents", JSON.stringify(result.events));
+    return result.events;
+  }
+
+  return [];
+};
+
 
   const removeQuery = () => {
     let newurl;
