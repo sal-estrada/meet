@@ -25,36 +25,22 @@ const checkToken = async (accessToken) => {
 };
 
 export const getEvents = async () => {
-  // 1️⃣ Offline → cache
-  if (!navigator.onLine) {
-    const events = localStorage.getItem("lastEvents");
-    return events ? JSON.parse(events) : [];
-  }
-
-  // 2️⃣ Local dev → mock data
   if (window.location.href.startsWith("http://localhost")) {
     return mockData;
   }
 
-  // 3️⃣ Auth
+  if (!navigator.onLine) {
+   const events = localStorage.getItem("lastEvents");
+   NProgress.done();
+   return events?JSON.parse(events):[];
+ }
+
   const token = await getAccessToken();
-  if (!token) return [];
 
-  const url =
-    "https://86www9yvvi.execute-api.us-east-2.amazonaws.com/dev/api/get-events/" +
-    token;
-
-  const response = await fetch(url);
-  const result = await response.json();
-
-  if (result?.events) {
-    localStorage.setItem("lastEvents", JSON.stringify(result.events));
-    return result.events;
+  if (!token) {
+    console.error("No access token available");
+    return [];
   }
-
-  return [];
-};
-
 
   const removeQuery = () => {
     let newurl;
