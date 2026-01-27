@@ -67,7 +67,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>Meet App</h1>
-      <p>Discover events happening in cities around the world.</p>
+      <h2>Discover events happening in cities around the world</h2>
 
       <div className="alerts-container">
         {infoAlert.length ? <InfoAlert text={infoAlert} /> : null}
@@ -84,7 +84,9 @@ const App = () => {
         setErrorAlert={setErrorAlert}
         setWarningAlert={setWarningAlert}
       />
-      <CityEventsChart allLocations={allLocations} events={events} />
+      <div className="charts-container">
+        <CityEventsChart allLocations={allLocations} events={events} />
+      </div>
       <EventList events={events} />
     </div>
   );
