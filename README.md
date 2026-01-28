@@ -4,6 +4,34 @@ The Event App is a **serverless Progressive Web Application (PWA)** built with *
 
 The app provides a seamless and responsive user experience, making it simple to stay informed about local events anytime, anywhere.
 
+## Technologies Used
+
+This project was built using a modern full-stack JavaScript ecosystem with a strong emphasis on performance, testing, scalability, and monitoring.
+
+### Frontend
+- **HTML5 & CSS3** – Semantic structure and responsive styling
+- **React** – Component-based UI architecture
+- **Recharts** – Data visualization and charting
+- **Vite** – Fast development server and optimized builds
+- **Babel** – JavaScript transpilation for browser compatibility
+- **Progressive Web App (PWA)** – Offline support and installable app experience
+
+### Backend & Serverless
+- **Node.js** – Backend runtime environment
+- **AWS Lambda** – Serverless functions for scalable backend logic
+
+### Authentication & APIs
+- **OAuth 2.0 (Google)** – Secure authentication and authorization
+- **Google Calendar API** – Fetches real-time event data
+
+### Testing
+- **Jest** – Unit and integration testing
+- **Cucumber** – Behavior-Driven Development (BDD) with Gherkin scenarios
+- **Puppeteer** – End-to-end (E2E) testing and browser automation
+
+### Monitoring & Performance
+- **Atatus APM** – Application performance monitoring and error tracking
+
 ## User Stories/ Features
 
 ### Filter Events By City
