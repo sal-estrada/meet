@@ -4,29 +4,55 @@ The Event App is a **serverless Progressive Web Application (PWA)** built with *
 
 The app provides a seamless and responsive user experience, making it simple to stay informed about local events anytime, anywhere.
 
-
 ## User Stories/ Features
+
+### Filter Events By City
+
+As a user, I should be able to filter events by city So that I can see a list of events taking place in that city.
+
+```gherkin
+    Scenario: When user hasn’t searched for a city, show upcoming events from all cities
+      Given the user has not entered a city in the search bar
+      When the events page loads
+      Then the user should see upcoming events from all cities
+
+
+    Scenario: User should see a list of suggestions when they search for a city
+      Given the user has entered text into the city search bar
+      When the user types a partial city name
+      Then the user should see a list of city suggestions matching the input
+
+
+    Scenario: User can select a city from the suggested list
+      Given the user sees a list of city suggestions
+      When the user clicks on a city from the suggestions
+      Then the events list should update to show only events in the selected city
+
+```
+
 ### Show/Hide Event Details
+
 As a user, I should be able to show or hide event details, so that I can view only the information I need and keep my event list uncluttered.
-    
-````gherkin
+
+```gherkin
     Scenario: An event element is collapsed by default
       Given I open the app
       When I view the list of events
       Then each event's details should be hidden
-    
+
     Scenario: User can expand an event to see details
       Given an event is collapsed
       When I click on the event
       Then the event details should expand and become visible
-    
+
     Scenario: User can collapse an event to hide details
       Given an event is expanded
       When I click on the event
       Then the event details should collapse and become hidden
-````
+```
 
 ### Specify Number of Events
+
 As a user, I should be able to specify the number of events displayed, so that I can control how much information I see at once and focus on the most relevant events.
 
 ```gherkin
@@ -39,11 +65,13 @@ Scenario: User can change the number of events displayed
   Given I am viewing the list of events
   When I specify a new number of events to display
   Then only that number of events should be shown
-````
-  
+```
+
 ### Use the App When Offline
+
 As a user, I should be able to access the app when offline, so that I can view events even without an internet connection.
-````gherkin
+
+```gherkin
 Scenario: Show cached data when there’s no internet connection
   Given I have previously opened the app and data is cached
   When I open the app without an internet connection
@@ -53,29 +81,35 @@ Scenario: Show error when user changes search settings offline
   Given I am offline
   When I try to change search settings like city or number of events
   Then the app should display an error message indicating changes cannot be made offline
-````
+```
 
 ### Add an App Shortcut to the Home Screen
+
 As a user, I should be able to add a shortcut to the app on my home screen, so that I can quickly open the app without navigating through a browser.
-````gherkin
+
+```gherkin
 Scenario: User can install the app as a home screen shortcut
   Given I am using a compatible device and browser
   When I choose the "Add to Home Screen" option
   Then a shortcut for the app should appear on my device's home screen
-````
+```
+
 ### Display Charts Visualizing Event Details
+
 As a user, I should be able to see charts that visualize event details, so that I can understand trends and patterns in events more easily.
-````gherkin
+
+```gherkin
 Scenario: Show a chart with the number of upcoming events in each city
   Given I am viewing the events dashboard
   When the data for upcoming events is loaded
   Then a chart should display the number of upcoming events per city
-````
+```
+
 ## Authentication
 
 This application uses OAuth 2.0 for secure user authentication and authorization. We integrate with the following providers:
 
-*   **Google:** Users can sign in and grant access to their Google account data.
+- **Google:** Users can sign in and grant access to their Google account data.
 
 **Authorization Flow:**
 
@@ -85,7 +119,7 @@ This application uses OAuth 2.0 for secure user authentication and authorization
 
 **Required Scopes:**
 
-*   **Google:** `profile`, `email` (for basic user information)
+- **Google:** `profile`, `email` (for basic user information)
 
 **Developer Setup (if applicable):**
 
