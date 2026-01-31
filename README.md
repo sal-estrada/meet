@@ -1,4 +1,5 @@
 # Meet App
+<img width="1512" height="982" alt="Meet App" src="https://github.com/user-attachments/assets/7236b528-b723-4c69-8a1e-c4433b3b1619" />
 
 The Event App is a **serverless Progressive Web Application (PWA)** built with **React** using a **Test-Driven Development (TDD)** approach. The app integrates with the **Google Calendar API** to fetch upcoming events, allowing users to view and interact with events in their geographical area.
 
